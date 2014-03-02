@@ -1,0 +1,19 @@
+
+<script type="text/javascript" src="https://code.jquery.com/jquery-1.6.2.js"></script> 
+ <script type="text/javascript" src="jquery.tipsy.js"></script>
+<link href="tipsy.css" rel="stylesheet" type="text/css">
+    <script>
+    $(function(){
+    	$('.test').tipsy({ 
+        gravity: 'w', 
+        html: true, 
+        title: function() {
+          return 'Hi there!'; //d.commit.author.name
+        }
+      });
+    });
+    
+    </script>
+<body>
+	<a href="#" class="test">TEST</a>
+</body>

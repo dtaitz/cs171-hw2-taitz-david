@@ -1,0 +1,454 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<title>Homework 2 Graph</title>
+<style>
+  
+
+  svg
+  {
+    z-index: 5;
+  }
+  .link {
+    stroke: gray;
+    stroke-width: 1.5px;
+    fill: none;
+  }
+
+  .node {
+    fill: #66CC66;
+    stroke: #000;
+    stroke-width: 1px;
+  }
+
+  .node:hover {
+    fill: red;
+  }
+
+</style>
+<link href="tipsy.css" rel="stylesheet" type="text/css">
+<script type="text/javascript" src="https://code.jquery.com/jquery-1.6.2.js"></script> 
+ <script type="text/javascript" src="jquery.tipsy.js"></script>
+<body>
+<script src="http://d3js.org/d3.v3.min.js"></script>
+  <form>
+  Layout:
+    <label><input type="radio" name="layout" value="force" checked> Force</label>
+    <label><input type="radio" name="layout" value="random" > Random</label>
+    <label><input type="radio" name="layout" value="radial"> Radial</label>  
+    <label><input type="radio" name="layout" value="line"> Line</label>
+    <label><input type="radio" name="layout" value="line_cat"> Line by Category</label>
+  </form>
+  <form>
+  Color:
+    <label><input type="radio" name="color" value="nocolor" checked> None</label>
+    <label><input type="radio" name="color" value="color_cat" > Category</label>
+  </form>
+  <form>
+  Size:
+    <label><input type="radio" name="size" value="nosize" checked> None</label>
+    <label><input type="radio" name="size" value="size_cat" > Category</label>
+  </form>
+  Linear Scale:
+    <label><input type="radio" name="scale" value="index" checked> Index Axis</label>
+    <label><input type="radio" name="scale" value="time"> Time Axis</label>
+  </form>
+  <form>
+  <form>
+  Time:
+  <input type="range" min=0 max=100 step=20 value=50>
+  </form>
+<script>
+
+branches_data = new Array();
+var commits_data = new Array();
+var parents_data = new Array();
+var commit_limit = 10;
+var users = [];
+var total_size = [];
+
+
+d3.json("https://api.github.com/repos/caleydo/caleydo/branches?access_token=1c4929710bd2a968263a5a1702a7e9a89c0dcce9", function(branches){
+   branches.forEach(function(d){
+      branches_data.push(d); 
+   });
+      //console.log(branches_data);
+      retrieveCommitData();
+});
+
+
+function get_user_index(username)
+{
+  for (i in users)
+  {
+    if (users[i] == username)
+    {
+      return i;
+    }
+  }
+  index = users.length;
+  users.push(username);
+  return index;
+}
+
+var retrieveCommitData = function() {
+  remaining = branches_data.length;
+  branches_data.forEach(function(d,i){
+    //if(commit_limit > 0){
+      d3.json("https://api.github.com/repos/caleydo/caleydo/commits?access_token=1c4929710bd2a968263a5a1702a7e9a89c0dcce9" + "&sha=" + d.name ,function(commits) {
+        for (var j = 0; j < 10; j++) {
+          if (commits[j]){
+            commits[j].branch = d.name;
+            commits[j].user_index = get_user_index(commits[j].commit.author.name);
+            commits_data.push(commits[j]); 
+            }
+          }
+        //console.log(commits_data);
+        if(! --remaining) retrieveSizeData();
+      });
+    //}
+  });
+};
+
+function retrieveSizeData() {
+  remaining = commits_data.length;
+  commits_data.forEach(function(d, i){
+    d3.json("https://api.github.com/repos/caleydo/caleydo/commits/" + d.sha +"?access_token=1c4929710bd2a968263a5a1702a7e9a89c0dcce9", function(commit_sizes){
+        console.log(d.total_size = commit_sizes.stats);
+        try
+        {
+          d.total_size = commit_sizes.stats.total;
+          d.add = commit_sizes.stats.additions;
+          d.sub = commit_sizes.stats.deletions;
+        }
+        catch(e)
+        {
+          d.total_size = 1000;
+        }
+         //console.log(commits_data)
+        if(! --remaining) makeGraph();
+    })
+  })
+}
+
+//console.log(branches_data);
+
+  makeGraph= function(){
+
+
+    var width = 1200,
+        height = 700;
+
+    var svg = d3.select("body").append("svg")
+                .attr("width", width)
+                .attr("height", height);
+
+    var fill = d3.scale.category10(); 
+
+
+    //reformat all the dates
+    commits_data.forEach(function(d){
+         d.commit.committer.date = Date.parse(d.commit.committer.date);
+    });
+
+    //sort the dates var index_scale = 
+    commits_data.sort(function(a,b){
+      //console.log(b);
+      return a.commit.committer.date - b.commit.committer.date;
+    });
+
+
+    for (var i = 0; i < commits_data.length; i++) {
+        //console.log(commits_data[i]);
+        for (var j = 0; j < commits_data[i].parents.length; j++) {
+            //console.log(commits_data[i].parents[j]); 
+            for (var k = 0; k < commits_data.length; k++) {
+                  if(commits_data[k].sha == commits_data[i].parents[j].sha){
+                    parents_data.push({"source":k,"target":i});
+                    //console.log(commits_data[k].sha);
+                    //console.log(commits_data[i].parents[j].sha);
+                  }
+            };
+        };
+    };
+
+
+    graph = {nodes:commits_data, links:parents_data};
+
+    //var nb_nodes = graph.nodes.length , nb_cat = branches_data.length;
+
+  /*
+   graph.nodes = d3.range(nb_nodes).map(function(d,i) {  
+      return { cat: d.author.login }; 
+    })
+  */
+
+    /* 
+    graph.nodes.map(function(d, i) {
+
+      graph.nodes.map(function(e, j) {
+        if(Math.random()>.99 && i!=j)
+          graph.links.push({"source": i, "target": j})
+
+      })
+    })
+    */
+
+
+    // Generate the force layout
+    var force = d3.layout.force()
+        .size([width, height])
+        .charge(-50)
+        .linkDistance(10)
+        .on("tick", tick)
+        .on("start", function(d) {})
+        .on("end", function(d) {})
+
+    function tick(d) {
+
+      graph_update(0);
+    }
+
+    function random_layout() {
+      
+      force.stop();
+
+      graph.nodes.forEach(function(d, i) {
+        d.x = width/4 + 2*width*Math.random()/4;
+        d.y = height/4 + 2*height*Math.random()/4;
+      })
+      
+      graph_update(500);
+    }
+
+    function force_layout() {
+
+     force.nodes(graph.nodes)
+          .links(graph.links)
+          .start();
+    }
+
+    function line_layout() {
+
+      force.stop();
+
+      graph.nodes.forEach(function(d, i) {
+        d.y = height/2;
+      })
+
+      graph_update(500);
+    }
+
+    function line_cat_layout() {
+
+      force.stop();
+
+      graph.nodes.forEach(function(d, i) {
+        d.y = 70 + d.user_index*30;
+      })
+
+      graph_update(500);
+    }
+
+    function radial_layout() {
+
+      force.stop();
+
+      var r = height/2;
+
+      var arc = d3.svg.arc()
+              .outerRadius(r);
+
+      var pie = d3.layout.pie()
+      .sort(function(a, b) { return a.cat - b.cat;})
+              .value(function(d, i) { return 1; }); // equal share for each point
+
+      graph.nodes = pie(graph.nodes).map(function(d, i) {
+        d.innerRadius = 0;
+        d.outerRadius = r;
+        d.data.x = arc.centroid(d)[0]+height/2;
+        d.data.y = arc.centroid(d)[1]+width/2;
+        d.data.endAngle = d.endAngle; 
+        d.data.startAngle = d.startAngle; 
+        return d.data;
+      })
+
+      graph_update(500);
+    }
+
+
+    var color = d3.scale.linear()
+      //.domain([(-1 * d3.max(graph.nodes, function(d) { return d.sub })), d3.max(graph.nodes, function(d) { return d.add })])
+      .interpolate(d3.interpolateRgb)
+      .range(["red", "green"]);
+
+
+    function category_color() {
+      d3.selectAll("circle").transition().duration(500).style("fill", function(d) { return color(d.add/d.total_size) });
+    }
+
+    var total_size_scale = d3.scale.log()
+      .domain([d3.min(graph.nodes, function(d) { return d.total_size+1}), d3.max(graph.nodes, function(d) { return d.total_size})])
+      .range([5, 20]);
+
+    function category_size() {
+      d3.selectAll("circle").transition().duration(500).attr("r", function(d) { return total_size_scale(d.total_size) });
+    }
+
+    function graph_update(delay) {
+
+      link.transition().duration(delay).attr('d', function(d){
+        return 'M'+d.source.x+','+d.source.y+' '+
+                'L'+d.source.x+','+d.target.y+' '+
+                'L'+d.target.x+','+d.target.y;
+      });
+
+      node.transition().duration(delay)
+          .attr("transform", function(d) { 
+            return "translate("+d.x+","+d.y+")"; 
+          });
+    }
+
+    function index_scale() {
+      force.stop();
+
+
+      var index_scale = d3.scale.linear()
+                          .domain([0 , graph.nodes.length])
+                          .range([55 , .75*width]);
+
+      
+      graph.nodes.forEach(function (d, i) {
+            d.x = 50 + index_scale(i);
+      });
+    
+
+      graph_update(500);
+    }
+    
+
+    function time_scale() {
+
+      force.stop();
+
+      console.log(graph.nodes)
+       var max = d3.max(graph.nodes, function(d){return d.commit.committer.date});
+       var min = d3.min(graph.nodes, function(d){return d.commit.committer.date});
+       console.log(min);
+       console.log(max);
+       var timeScale = d3.time.scale()
+                          .domain([min,max])
+                          .range([55 , .75*width]);
+
+      //console.log(timeScale(1357422525000));
+         
+      console.log (graph.nodes)
+
+      
+      graph.nodes.forEach(function(d) {
+        d.x = 50 + timeScale(d.commit.committer.date);
+        //d.y = branches_data[i]/6 * height;
+      });
+      
+      
+      graph_update(500);
+    }
+
+    d3.select("input[value=\"force\"]").on("click", force_layout);
+    d3.select("input[value=\"random\"]").on("click", random_layout);
+    d3.select("input[value=\"line\"]").on("click", line_layout);
+    d3.select("input[value=\"line_cat\"]").on("click", line_cat_layout);
+    d3.select("input[value=\"radial\"]").on("click", radial_layout);
+
+    d3.select("input[value=\"nocolor\"]").on("click", function() {
+      d3.selectAll("circle").transition().duration(500).style("fill", "#66CC66");
+    })
+
+    d3.select("input[value=\"color_cat\"]").on("click", category_color);
+
+    d3.select("input[value=\"nosize\"]").on("click", function() {
+      d3.selectAll("circle").transition().duration(500).attr("r", 5);
+    })
+
+    d3.select("input[value=\"size_cat\"]").on("click", category_size);
+
+    d3.select("input[value=\"index\"]").on("click", index_scale);
+    d3.select("input[value=\"time\"]").on("click", time_scale);
+
+    var link = svg.selectAll(".link")
+                  .data(graph.links)
+                .enter().append("path")
+                  .attr("class", "link")
+                  .attr("marker-end", "url(#end)");
+
+      // build the arrow.
+      svg.append("svg:defs").selectAll("marker")
+          .data(["end"])      // Different link/path types can be defined here
+        .enter().append("svg:marker")    // This section adds in the arrows
+          .attr("id", String)
+          .attr("viewBox", "0 -5 10 10")
+          .attr("refX", 15)
+          .attr("refY", -1.5)
+          .attr("markerWidth", 6)
+          .attr("markerHeight", 6)
+          //.attr("orient", "auto") //may change direction
+        .append("svg:path")
+          .attr("d", "M0,-5L10,0L0,5");
+
+
+    var node = svg.selectAll(".node")
+              .data(graph.nodes)
+              .enter()
+              .append("g").attr("class", "node")
+              .attr("class", function(d){return d.branch})
+              .on("mouseover",function(d){ 
+                d3.selectAll('circle')
+                  .attr('fill-opacity', function(e){
+                    if (e.branch == d.branch)
+                    {
+                      return 1;
+                    }
+                    else
+                    {
+                      return .2;
+                    }
+                  });
+              })
+            .on("mouseout", function(d) {
+              d3.selectAll('circle').attr('fill-opacity', 1);
+            });
+    
+    // add the links and the arrows
+    var path = svg.selectAll("line")
+        .data(force.links())
+        .enter()
+        .append("path")
+        .attr("class", function(d) { return "link " + d.type; })
+        .attr("marker-end", "url(#end)");
+
+    for (i in users) {
+    svg.append("text")
+        .attr("x", 12)
+        .attr("y", 70 + i*30)
+        .attr("text-anchor","start")
+        //.attr("class",function(d){return d.branch})
+        .text(users[i]);
+      }
+
+    node.append("circle")
+        .attr("r", 5);
+
+    $('circle').tipsy({ 
+        gravity: 's', 
+        html: true, 
+        title: function() {
+          var d = this.__data__;
+          return "User: " + d.commit.author.name + "</br> Branch: " + d.branch + "</br> Additions: " + d.add + "</br> Subtractions: " + d.sub;
+        }
+      });
+
+    force_layout();
+  };
+
+</script>
+</body>
+</html>

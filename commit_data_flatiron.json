@@ -1,0 +1,2019 @@
+[
+  {
+    "sha": "f858f983d002a00fcee8bd4848e5f83e202f283d",
+    "commit": {
+      "author": {
+        "name": "Josh Rowley",
+        "email": "josh.rowley@carrotcreative.com",
+        "date": "2013-04-17T20:14:49Z"
+      },
+      "committer": {
+        "name": "Josh Rowley",
+        "email": "josh.rowley@carrotcreative.com",
+        "date": "2013-04-17T20:14:49Z"
+      },
+      "message": "Update deploy server",
+      "tree": {
+        "sha": "5e5888a55102746b9fcf90fe7005f0963969a2ea",
+        "url": "https://api.github.com/repos/flatiron-school-student-projects/gitbo/git/trees/5e5888a55102746b9fcf90fe7005f0963969a2ea"
+      },
+      "url": "https://api.github.com/repos/flatiron-school-student-projects/gitbo/git/commits/f858f983d002a00fcee8bd4848e5f83e202f283d",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/flatiron-school-student-projects/gitbo/commits/f858f983d002a00fcee8bd4848e5f83e202f283d",
+    "html_url": "https://github.com/flatiron-school-student-projects/gitbo/commit/f858f983d002a00fcee8bd4848e5f83e202f283d",
+    "comments_url": "https://api.github.com/repos/flatiron-school-student-projects/gitbo/commits/f858f983d002a00fcee8bd4848e5f83e202f283d/comments",
+    "author": null,
+    "committer": null,
+    "parents": [
+      {
+        "sha": "880ab1e7a3e7a9c4fc5e91af056fda5d16810219",
+        "url": "https://api.github.com/repos/flatiron-school-student-projects/gitbo/commits/880ab1e7a3e7a9c4fc5e91af056fda5d16810219",
+        "html_url": "https://github.com/flatiron-school-student-projects/gitbo/commit/880ab1e7a3e7a9c4fc5e91af056fda5d16810219"
+      }
+    ]
+  },
+  {
+    "sha": "880ab1e7a3e7a9c4fc5e91af056fda5d16810219",
+    "commit": {
+      "author": {
+        "name": "adamjonas",
+        "email": "adam.jonas@carrotcreative.com",
+        "date": "2013-03-29T22:55:31Z"
+      },
+      "committer": {
+        "name": "adamjonas",
+        "email": "adam.jonas@carrotcreative.com",
+        "date": "2013-03-29T22:55:31Z"
+      },
+      "message": "updated gem file",
+      "tree": {
+        "sha": "88ba2c3257b2997b45d4258ce928dcf67548d26f",
+        "url": "https://api.github.com/repos/flatiron-school-student-projects/gitbo/git/trees/88ba2c3257b2997b45d4258ce928dcf67548d26f"
+      },
+      "url": "https://api.github.com/repos/flatiron-school-student-projects/gitbo/git/commits/880ab1e7a3e7a9c4fc5e91af056fda5d16810219",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/flatiron-school-student-projects/gitbo/commits/880ab1e7a3e7a9c4fc5e91af056fda5d16810219",
+    "html_url": "https://github.com/flatiron-school-student-projects/gitbo/commit/880ab1e7a3e7a9c4fc5e91af056fda5d16810219",
+    "comments_url": "https://api.github.com/repos/flatiron-school-student-projects/gitbo/commits/880ab1e7a3e7a9c4fc5e91af056fda5d16810219/comments",
+    "author": null,
+    "committer": null,
+    "parents": [
+      {
+        "sha": "145066f49dc7e71a9fcf7f6ffc99fd6bb02e97d6",
+        "url": "https://api.github.com/repos/flatiron-school-student-projects/gitbo/commits/145066f49dc7e71a9fcf7f6ffc99fd6bb02e97d6",
+        "html_url": "https://github.com/flatiron-school-student-projects/gitbo/commit/145066f49dc7e71a9fcf7f6ffc99fd6bb02e97d6"
+      }
+    ]
+  },
+  {
+    "sha": "145066f49dc7e71a9fcf7f6ffc99fd6bb02e97d6",
+    "commit": {
+      "author": {
+        "name": "Adam Jonas",
+        "email": "adam.jonas@carrotcreative.com",
+        "date": "2013-02-19T19:37:56Z"
+      },
+      "committer": {
+        "name": "Adam Jonas",
+        "email": "adam.jonas@carrotcreative.com",
+        "date": "2013-02-19T19:37:56Z"
+      },
+      "message": "changed source of octokit source",
+      "tree": {
+        "sha": "776a24c846e473636bd5b2047b7731762d3ffe9f",
+        "url": "https://api.github.com/repos/flatiron-school-student-projects/gitbo/git/trees/776a24c846e473636bd5b2047b7731762d3ffe9f"
+      },
+      "url": "https://api.github.com/repos/flatiron-school-student-projects/gitbo/git/commits/145066f49dc7e71a9fcf7f6ffc99fd6bb02e97d6",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/flatiron-school-student-projects/gitbo/commits/145066f49dc7e71a9fcf7f6ffc99fd6bb02e97d6",
+    "html_url": "https://github.com/flatiron-school-student-projects/gitbo/commit/145066f49dc7e71a9fcf7f6ffc99fd6bb02e97d6",
+    "comments_url": "https://api.github.com/repos/flatiron-school-student-projects/gitbo/commits/145066f49dc7e71a9fcf7f6ffc99fd6bb02e97d6/comments",
+    "author": null,
+    "committer": null,
+    "parents": [
+      {
+        "sha": "c1c41c215ebf88919fd9ac0b1fde4a5a9d9602c8",
+        "url": "https://api.github.com/repos/flatiron-school-student-projects/gitbo/commits/c1c41c215ebf88919fd9ac0b1fde4a5a9d9602c8",
+        "html_url": "https://github.com/flatiron-school-student-projects/gitbo/commit/c1c41c215ebf88919fd9ac0b1fde4a5a9d9602c8"
+      }
+    ]
+  },
+  {
+    "sha": "c1c41c215ebf88919fd9ac0b1fde4a5a9d9602c8",
+    "commit": {
+      "author": {
+        "name": "Adam Jonas",
+        "email": "francestown81@gmail.com",
+        "date": "2013-02-18T23:46:21Z"
+      },
+      "committer": {
+        "name": "Adam Jonas",
+        "email": "francestown81@gmail.com",
+        "date": "2013-02-18T23:46:21Z"
+      },
+      "message": "Merge branch 'paypal-integration'",
+      "tree": {
+        "sha": "450562c979cd82534c8cfb85c8b0699d5bf178a3",
+        "url": "https://api.github.com/repos/flatiron-school-student-projects/gitbo/git/trees/450562c979cd82534c8cfb85c8b0699d5bf178a3"
+      },
+      "url": "https://api.github.com/repos/flatiron-school-student-projects/gitbo/git/commits/c1c41c215ebf88919fd9ac0b1fde4a5a9d9602c8",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/flatiron-school-student-projects/gitbo/commits/c1c41c215ebf88919fd9ac0b1fde4a5a9d9602c8",
+    "html_url": "https://github.com/flatiron-school-student-projects/gitbo/commit/c1c41c215ebf88919fd9ac0b1fde4a5a9d9602c8",
+    "comments_url": "https://api.github.com/repos/flatiron-school-student-projects/gitbo/commits/c1c41c215ebf88919fd9ac0b1fde4a5a9d9602c8/comments",
+    "author": {
+      "login": "adamjonas",
+      "id": 755825,
+      "avatar_url": "https://avatars.githubusercontent.com/u/755825",
+      "gravatar_id": "44a509e7710bebe0320ed103e2aa0877",
+      "url": "https://api.github.com/users/adamjonas",
+      "html_url": "https://github.com/adamjonas",
+      "followers_url": "https://api.github.com/users/adamjonas/followers",
+      "following_url": "https://api.github.com/users/adamjonas/following{/other_user}",
+      "gists_url": "https://api.github.com/users/adamjonas/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/adamjonas/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/adamjonas/subscriptions",
+      "organizations_url": "https://api.github.com/users/adamjonas/orgs",
+      "repos_url": "https://api.github.com/users/adamjonas/repos",
+      "events_url": "https://api.github.com/users/adamjonas/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/adamjonas/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "adamjonas",
+      "id": 755825,
+      "avatar_url": "https://avatars.githubusercontent.com/u/755825",
+      "gravatar_id": "44a509e7710bebe0320ed103e2aa0877",
+      "url": "https://api.github.com/users/adamjonas",
+      "html_url": "https://github.com/adamjonas",
+      "followers_url": "https://api.github.com/users/adamjonas/followers",
+      "following_url": "https://api.github.com/users/adamjonas/following{/other_user}",
+      "gists_url": "https://api.github.com/users/adamjonas/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/adamjonas/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/adamjonas/subscriptions",
+      "organizations_url": "https://api.github.com/users/adamjonas/orgs",
+      "repos_url": "https://api.github.com/users/adamjonas/repos",
+      "events_url": "https://api.github.com/users/adamjonas/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/adamjonas/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "bd728605646c63bcf540290047657adac628f11b",
+        "url": "https://api.github.com/repos/flatiron-school-student-projects/gitbo/commits/bd728605646c63bcf540290047657adac628f11b",
+        "html_url": "https://github.com/flatiron-school-student-projects/gitbo/commit/bd728605646c63bcf540290047657adac628f11b"
+      },
+      {
+        "sha": "0c5698cf8e92238060a3781649f70ff2d8bc8d2a",
+        "url": "https://api.github.com/repos/flatiron-school-student-projects/gitbo/commits/0c5698cf8e92238060a3781649f70ff2d8bc8d2a",
+        "html_url": "https://github.com/flatiron-school-student-projects/gitbo/commit/0c5698cf8e92238060a3781649f70ff2d8bc8d2a"
+      }
+    ]
+  },
+  {
+    "sha": "0c5698cf8e92238060a3781649f70ff2d8bc8d2a",
+    "commit": {
+      "author": {
+        "name": "Adam Jonas",
+        "email": "francestown81@gmail.com",
+        "date": "2013-02-18T23:46:06Z"
+      },
+      "committer": {
+        "name": "Adam Jonas",
+        "email": "francestown81@gmail.com",
+        "date": "2013-02-18T23:46:06Z"
+      },
+      "message": "paypal button and payment for solved bounties",
+      "tree": {
+        "sha": "450562c979cd82534c8cfb85c8b0699d5bf178a3",
+        "url": "https://api.github.com/repos/flatiron-school-student-projects/gitbo/git/trees/450562c979cd82534c8cfb85c8b0699d5bf178a3"
+      },
+      "url": "https://api.github.com/repos/flatiron-school-student-projects/gitbo/git/commits/0c5698cf8e92238060a3781649f70ff2d8bc8d2a",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/flatiron-school-student-projects/gitbo/commits/0c5698cf8e92238060a3781649f70ff2d8bc8d2a",
+    "html_url": "https://github.com/flatiron-school-student-projects/gitbo/commit/0c5698cf8e92238060a3781649f70ff2d8bc8d2a",
+    "comments_url": "https://api.github.com/repos/flatiron-school-student-projects/gitbo/commits/0c5698cf8e92238060a3781649f70ff2d8bc8d2a/comments",
+    "author": {
+      "login": "adamjonas",
+      "id": 755825,
+      "avatar_url": "https://avatars.githubusercontent.com/u/755825",
+      "gravatar_id": "44a509e7710bebe0320ed103e2aa0877",
+      "url": "https://api.github.com/users/adamjonas",
+      "html_url": "https://github.com/adamjonas",
+      "followers_url": "https://api.github.com/users/adamjonas/followers",
+      "following_url": "https://api.github.com/users/adamjonas/following{/other_user}",
+      "gists_url": "https://api.github.com/users/adamjonas/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/adamjonas/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/adamjonas/subscriptions",
+      "organizations_url": "https://api.github.com/users/adamjonas/orgs",
+      "repos_url": "https://api.github.com/users/adamjonas/repos",
+      "events_url": "https://api.github.com/users/adamjonas/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/adamjonas/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "adamjonas",
+      "id": 755825,
+      "avatar_url": "https://avatars.githubusercontent.com/u/755825",
+      "gravatar_id": "44a509e7710bebe0320ed103e2aa0877",
+      "url": "https://api.github.com/users/adamjonas",
+      "html_url": "https://github.com/adamjonas",
+      "followers_url": "https://api.github.com/users/adamjonas/followers",
+      "following_url": "https://api.github.com/users/adamjonas/following{/other_user}",
+      "gists_url": "https://api.github.com/users/adamjonas/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/adamjonas/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/adamjonas/subscriptions",
+      "organizations_url": "https://api.github.com/users/adamjonas/orgs",
+      "repos_url": "https://api.github.com/users/adamjonas/repos",
+      "events_url": "https://api.github.com/users/adamjonas/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/adamjonas/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "bd728605646c63bcf540290047657adac628f11b",
+        "url": "https://api.github.com/repos/flatiron-school-student-projects/gitbo/commits/bd728605646c63bcf540290047657adac628f11b",
+        "html_url": "https://github.com/flatiron-school-student-projects/gitbo/commit/bd728605646c63bcf540290047657adac628f11b"
+      }
+    ]
+  },
+  {
+    "sha": "bd728605646c63bcf540290047657adac628f11b",
+    "commit": {
+      "author": {
+        "name": "Adam Jonas",
+        "email": "francestown81@gmail.com",
+        "date": "2013-01-16T23:26:37Z"
+      },
+      "committer": {
+        "name": "Adam Jonas",
+        "email": "francestown81@gmail.com",
+        "date": "2013-01-16T23:26:37Z"
+      },
+      "message": "took stripe back out",
+      "tree": {
+        "sha": "5eddcded6c95d56fb936f843889200d222b194e1",
+        "url": "https://api.github.com/repos/flatiron-school-student-projects/gitbo/git/trees/5eddcded6c95d56fb936f843889200d222b194e1"
+      },
+      "url": "https://api.github.com/repos/flatiron-school-student-projects/gitbo/git/commits/bd728605646c63bcf540290047657adac628f11b",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/flatiron-school-student-projects/gitbo/commits/bd728605646c63bcf540290047657adac628f11b",
+    "html_url": "https://github.com/flatiron-school-student-projects/gitbo/commit/bd728605646c63bcf540290047657adac628f11b",
+    "comments_url": "https://api.github.com/repos/flatiron-school-student-projects/gitbo/commits/bd728605646c63bcf540290047657adac628f11b/comments",
+    "author": {
+      "login": "adamjonas",
+      "id": 755825,
+      "avatar_url": "https://avatars.githubusercontent.com/u/755825",
+      "gravatar_id": "44a509e7710bebe0320ed103e2aa0877",
+      "url": "https://api.github.com/users/adamjonas",
+      "html_url": "https://github.com/adamjonas",
+      "followers_url": "https://api.github.com/users/adamjonas/followers",
+      "following_url": "https://api.github.com/users/adamjonas/following{/other_user}",
+      "gists_url": "https://api.github.com/users/adamjonas/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/adamjonas/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/adamjonas/subscriptions",
+      "organizations_url": "https://api.github.com/users/adamjonas/orgs",
+      "repos_url": "https://api.github.com/users/adamjonas/repos",
+      "events_url": "https://api.github.com/users/adamjonas/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/adamjonas/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "adamjonas",
+      "id": 755825,
+      "avatar_url": "https://avatars.githubusercontent.com/u/755825",
+      "gravatar_id": "44a509e7710bebe0320ed103e2aa0877",
+      "url": "https://api.github.com/users/adamjonas",
+      "html_url": "https://github.com/adamjonas",
+      "followers_url": "https://api.github.com/users/adamjonas/followers",
+      "following_url": "https://api.github.com/users/adamjonas/following{/other_user}",
+      "gists_url": "https://api.github.com/users/adamjonas/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/adamjonas/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/adamjonas/subscriptions",
+      "organizations_url": "https://api.github.com/users/adamjonas/orgs",
+      "repos_url": "https://api.github.com/users/adamjonas/repos",
+      "events_url": "https://api.github.com/users/adamjonas/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/adamjonas/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "55cf65daa83df6294c3d7f1a89fad5ad06e5ca76",
+        "url": "https://api.github.com/repos/flatiron-school-student-projects/gitbo/commits/55cf65daa83df6294c3d7f1a89fad5ad06e5ca76",
+        "html_url": "https://github.com/flatiron-school-student-projects/gitbo/commit/55cf65daa83df6294c3d7f1a89fad5ad06e5ca76"
+      }
+    ]
+  },
+  {
+    "sha": "55cf65daa83df6294c3d7f1a89fad5ad06e5ca76",
+    "commit": {
+      "author": {
+        "name": "Adam Jonas",
+        "email": "francestown81@gmail.com",
+        "date": "2013-01-16T20:29:10Z"
+      },
+      "committer": {
+        "name": "Adam Jonas",
+        "email": "francestown81@gmail.com",
+        "date": "2013-01-16T20:29:10Z"
+      },
+      "message": "stipe button for demo",
+      "tree": {
+        "sha": "4f0d1abfdd7d66cd585c1a0ec984ef3959a66874",
+        "url": "https://api.github.com/repos/flatiron-school-student-projects/gitbo/git/trees/4f0d1abfdd7d66cd585c1a0ec984ef3959a66874"
+      },
+      "url": "https://api.github.com/repos/flatiron-school-student-projects/gitbo/git/commits/55cf65daa83df6294c3d7f1a89fad5ad06e5ca76",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/flatiron-school-student-projects/gitbo/commits/55cf65daa83df6294c3d7f1a89fad5ad06e5ca76",
+    "html_url": "https://github.com/flatiron-school-student-projects/gitbo/commit/55cf65daa83df6294c3d7f1a89fad5ad06e5ca76",
+    "comments_url": "https://api.github.com/repos/flatiron-school-student-projects/gitbo/commits/55cf65daa83df6294c3d7f1a89fad5ad06e5ca76/comments",
+    "author": {
+      "login": "adamjonas",
+      "id": 755825,
+      "avatar_url": "https://avatars.githubusercontent.com/u/755825",
+      "gravatar_id": "44a509e7710bebe0320ed103e2aa0877",
+      "url": "https://api.github.com/users/adamjonas",
+      "html_url": "https://github.com/adamjonas",
+      "followers_url": "https://api.github.com/users/adamjonas/followers",
+      "following_url": "https://api.github.com/users/adamjonas/following{/other_user}",
+      "gists_url": "https://api.github.com/users/adamjonas/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/adamjonas/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/adamjonas/subscriptions",
+      "organizations_url": "https://api.github.com/users/adamjonas/orgs",
+      "repos_url": "https://api.github.com/users/adamjonas/repos",
+      "events_url": "https://api.github.com/users/adamjonas/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/adamjonas/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "adamjonas",
+      "id": 755825,
+      "avatar_url": "https://avatars.githubusercontent.com/u/755825",
+      "gravatar_id": "44a509e7710bebe0320ed103e2aa0877",
+      "url": "https://api.github.com/users/adamjonas",
+      "html_url": "https://github.com/adamjonas",
+      "followers_url": "https://api.github.com/users/adamjonas/followers",
+      "following_url": "https://api.github.com/users/adamjonas/following{/other_user}",
+      "gists_url": "https://api.github.com/users/adamjonas/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/adamjonas/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/adamjonas/subscriptions",
+      "organizations_url": "https://api.github.com/users/adamjonas/orgs",
+      "repos_url": "https://api.github.com/users/adamjonas/repos",
+      "events_url": "https://api.github.com/users/adamjonas/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/adamjonas/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "a016af3383ac04fd5a674648a77ba132386a6572",
+        "url": "https://api.github.com/repos/flatiron-school-student-projects/gitbo/commits/a016af3383ac04fd5a674648a77ba132386a6572",
+        "html_url": "https://github.com/flatiron-school-student-projects/gitbo/commit/a016af3383ac04fd5a674648a77ba132386a6572"
+      }
+    ]
+  },
+  {
+    "sha": "a016af3383ac04fd5a674648a77ba132386a6572",
+    "commit": {
+      "author": {
+        "name": "Adam Jonas",
+        "email": "francestown81@gmail.com",
+        "date": "2013-01-15T16:10:17Z"
+      },
+      "committer": {
+        "name": "Adam Jonas",
+        "email": "francestown81@gmail.com",
+        "date": "2013-01-15T16:10:17Z"
+      },
+      "message": "Merge branch 'filter-bars'",
+      "tree": {
+        "sha": "5eddcded6c95d56fb936f843889200d222b194e1",
+        "url": "https://api.github.com/repos/flatiron-school-student-projects/gitbo/git/trees/5eddcded6c95d56fb936f843889200d222b194e1"
+      },
+      "url": "https://api.github.com/repos/flatiron-school-student-projects/gitbo/git/commits/a016af3383ac04fd5a674648a77ba132386a6572",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/flatiron-school-student-projects/gitbo/commits/a016af3383ac04fd5a674648a77ba132386a6572",
+    "html_url": "https://github.com/flatiron-school-student-projects/gitbo/commit/a016af3383ac04fd5a674648a77ba132386a6572",
+    "comments_url": "https://api.github.com/repos/flatiron-school-student-projects/gitbo/commits/a016af3383ac04fd5a674648a77ba132386a6572/comments",
+    "author": {
+      "login": "adamjonas",
+      "id": 755825,
+      "avatar_url": "https://avatars.githubusercontent.com/u/755825",
+      "gravatar_id": "44a509e7710bebe0320ed103e2aa0877",
+      "url": "https://api.github.com/users/adamjonas",
+      "html_url": "https://github.com/adamjonas",
+      "followers_url": "https://api.github.com/users/adamjonas/followers",
+      "following_url": "https://api.github.com/users/adamjonas/following{/other_user}",
+      "gists_url": "https://api.github.com/users/adamjonas/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/adamjonas/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/adamjonas/subscriptions",
+      "organizations_url": "https://api.github.com/users/adamjonas/orgs",
+      "repos_url": "https://api.github.com/users/adamjonas/repos",
+      "events_url": "https://api.github.com/users/adamjonas/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/adamjonas/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "adamjonas",
+      "id": 755825,
+      "avatar_url": "https://avatars.githubusercontent.com/u/755825",
+      "gravatar_id": "44a509e7710bebe0320ed103e2aa0877",
+      "url": "https://api.github.com/users/adamjonas",
+      "html_url": "https://github.com/adamjonas",
+      "followers_url": "https://api.github.com/users/adamjonas/followers",
+      "following_url": "https://api.github.com/users/adamjonas/following{/other_user}",
+      "gists_url": "https://api.github.com/users/adamjonas/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/adamjonas/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/adamjonas/subscriptions",
+      "organizations_url": "https://api.github.com/users/adamjonas/orgs",
+      "repos_url": "https://api.github.com/users/adamjonas/repos",
+      "events_url": "https://api.github.com/users/adamjonas/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/adamjonas/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "c0993964f50661137698ac67772b500757888b4d",
+        "url": "https://api.github.com/repos/flatiron-school-student-projects/gitbo/commits/c0993964f50661137698ac67772b500757888b4d",
+        "html_url": "https://github.com/flatiron-school-student-projects/gitbo/commit/c0993964f50661137698ac67772b500757888b4d"
+      },
+      {
+        "sha": "13f310d3b9035a44124b4e146efb612163379aec",
+        "url": "https://api.github.com/repos/flatiron-school-student-projects/gitbo/commits/13f310d3b9035a44124b4e146efb612163379aec",
+        "html_url": "https://github.com/flatiron-school-student-projects/gitbo/commit/13f310d3b9035a44124b4e146efb612163379aec"
+      }
+    ]
+  },
+  {
+    "sha": "13f310d3b9035a44124b4e146efb612163379aec",
+    "commit": {
+      "author": {
+        "name": "Adam Jonas",
+        "email": "francestown81@gmail.com",
+        "date": "2013-01-15T16:09:35Z"
+      },
+      "committer": {
+        "name": "Adam Jonas",
+        "email": "francestown81@gmail.com",
+        "date": "2013-01-15T16:09:35Z"
+      },
+      "message": "search is implemented filters are not",
+      "tree": {
+        "sha": "1661407791152d869a7a55fc802f674fe2f5e839",
+        "url": "https://api.github.com/repos/flatiron-school-student-projects/gitbo/git/trees/1661407791152d869a7a55fc802f674fe2f5e839"
+      },
+      "url": "https://api.github.com/repos/flatiron-school-student-projects/gitbo/git/commits/13f310d3b9035a44124b4e146efb612163379aec",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/flatiron-school-student-projects/gitbo/commits/13f310d3b9035a44124b4e146efb612163379aec",
+    "html_url": "https://github.com/flatiron-school-student-projects/gitbo/commit/13f310d3b9035a44124b4e146efb612163379aec",
+    "comments_url": "https://api.github.com/repos/flatiron-school-student-projects/gitbo/commits/13f310d3b9035a44124b4e146efb612163379aec/comments",
+    "author": {
+      "login": "adamjonas",
+      "id": 755825,
+      "avatar_url": "https://avatars.githubusercontent.com/u/755825",
+      "gravatar_id": "44a509e7710bebe0320ed103e2aa0877",
+      "url": "https://api.github.com/users/adamjonas",
+      "html_url": "https://github.com/adamjonas",
+      "followers_url": "https://api.github.com/users/adamjonas/followers",
+      "following_url": "https://api.github.com/users/adamjonas/following{/other_user}",
+      "gists_url": "https://api.github.com/users/adamjonas/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/adamjonas/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/adamjonas/subscriptions",
+      "organizations_url": "https://api.github.com/users/adamjonas/orgs",
+      "repos_url": "https://api.github.com/users/adamjonas/repos",
+      "events_url": "https://api.github.com/users/adamjonas/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/adamjonas/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "adamjonas",
+      "id": 755825,
+      "avatar_url": "https://avatars.githubusercontent.com/u/755825",
+      "gravatar_id": "44a509e7710bebe0320ed103e2aa0877",
+      "url": "https://api.github.com/users/adamjonas",
+      "html_url": "https://github.com/adamjonas",
+      "followers_url": "https://api.github.com/users/adamjonas/followers",
+      "following_url": "https://api.github.com/users/adamjonas/following{/other_user}",
+      "gists_url": "https://api.github.com/users/adamjonas/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/adamjonas/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/adamjonas/subscriptions",
+      "organizations_url": "https://api.github.com/users/adamjonas/orgs",
+      "repos_url": "https://api.github.com/users/adamjonas/repos",
+      "events_url": "https://api.github.com/users/adamjonas/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/adamjonas/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "17e6729e559cbc35f6806053797881163f7f327c",
+        "url": "https://api.github.com/repos/flatiron-school-student-projects/gitbo/commits/17e6729e559cbc35f6806053797881163f7f327c",
+        "html_url": "https://github.com/flatiron-school-student-projects/gitbo/commit/17e6729e559cbc35f6806053797881163f7f327c"
+      }
+    ]
+  },
+  {
+    "sha": "c0993964f50661137698ac67772b500757888b4d",
+    "commit": {
+      "author": {
+        "name": "Adam Jonas",
+        "email": "francestown81@gmail.com",
+        "date": "2013-01-14T23:37:28Z"
+      },
+      "committer": {
+        "name": "Adam Jonas",
+        "email": "francestown81@gmail.com",
+        "date": "2013-01-14T23:37:28Z"
+      },
+      "message": "Merge branch 'bounties-back-in-issue-show'",
+      "tree": {
+        "sha": "5d16962edfb46ef51fbf2a356d2f5f9daf42e142",
+        "url": "https://api.github.com/repos/flatiron-school-student-projects/gitbo/git/trees/5d16962edfb46ef51fbf2a356d2f5f9daf42e142"
+      },
+      "url": "https://api.github.com/repos/flatiron-school-student-projects/gitbo/git/commits/c0993964f50661137698ac67772b500757888b4d",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/flatiron-school-student-projects/gitbo/commits/c0993964f50661137698ac67772b500757888b4d",
+    "html_url": "https://github.com/flatiron-school-student-projects/gitbo/commit/c0993964f50661137698ac67772b500757888b4d",
+    "comments_url": "https://api.github.com/repos/flatiron-school-student-projects/gitbo/commits/c0993964f50661137698ac67772b500757888b4d/comments",
+    "author": {
+      "login": "adamjonas",
+      "id": 755825,
+      "avatar_url": "https://avatars.githubusercontent.com/u/755825",
+      "gravatar_id": "44a509e7710bebe0320ed103e2aa0877",
+      "url": "https://api.github.com/users/adamjonas",
+      "html_url": "https://github.com/adamjonas",
+      "followers_url": "https://api.github.com/users/adamjonas/followers",
+      "following_url": "https://api.github.com/users/adamjonas/following{/other_user}",
+      "gists_url": "https://api.github.com/users/adamjonas/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/adamjonas/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/adamjonas/subscriptions",
+      "organizations_url": "https://api.github.com/users/adamjonas/orgs",
+      "repos_url": "https://api.github.com/users/adamjonas/repos",
+      "events_url": "https://api.github.com/users/adamjonas/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/adamjonas/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "adamjonas",
+      "id": 755825,
+      "avatar_url": "https://avatars.githubusercontent.com/u/755825",
+      "gravatar_id": "44a509e7710bebe0320ed103e2aa0877",
+      "url": "https://api.github.com/users/adamjonas",
+      "html_url": "https://github.com/adamjonas",
+      "followers_url": "https://api.github.com/users/adamjonas/followers",
+      "following_url": "https://api.github.com/users/adamjonas/following{/other_user}",
+      "gists_url": "https://api.github.com/users/adamjonas/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/adamjonas/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/adamjonas/subscriptions",
+      "organizations_url": "https://api.github.com/users/adamjonas/orgs",
+      "repos_url": "https://api.github.com/users/adamjonas/repos",
+      "events_url": "https://api.github.com/users/adamjonas/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/adamjonas/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "5d86460698e37521d65fa429831d96e4aa35aa82",
+        "url": "https://api.github.com/repos/flatiron-school-student-projects/gitbo/commits/5d86460698e37521d65fa429831d96e4aa35aa82",
+        "html_url": "https://github.com/flatiron-school-student-projects/gitbo/commit/5d86460698e37521d65fa429831d96e4aa35aa82"
+      },
+      {
+        "sha": "4fc33946fd0b41d470dc7eafbbe1e6ca47896c14",
+        "url": "https://api.github.com/repos/flatiron-school-student-projects/gitbo/commits/4fc33946fd0b41d470dc7eafbbe1e6ca47896c14",
+        "html_url": "https://github.com/flatiron-school-student-projects/gitbo/commit/4fc33946fd0b41d470dc7eafbbe1e6ca47896c14"
+      }
+    ]
+  },
+  {
+    "sha": "4fc33946fd0b41d470dc7eafbbe1e6ca47896c14",
+    "commit": {
+      "author": {
+        "name": "Adam Jonas",
+        "email": "francestown81@gmail.com",
+        "date": "2013-01-14T23:37:08Z"
+      },
+      "committer": {
+        "name": "Adam Jonas",
+        "email": "francestown81@gmail.com",
+        "date": "2013-01-14T23:37:08Z"
+      },
+      "message": "added bounties back on the show page",
+      "tree": {
+        "sha": "5d16962edfb46ef51fbf2a356d2f5f9daf42e142",
+        "url": "https://api.github.com/repos/flatiron-school-student-projects/gitbo/git/trees/5d16962edfb46ef51fbf2a356d2f5f9daf42e142"
+      },
+      "url": "https://api.github.com/repos/flatiron-school-student-projects/gitbo/git/commits/4fc33946fd0b41d470dc7eafbbe1e6ca47896c14",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/flatiron-school-student-projects/gitbo/commits/4fc33946fd0b41d470dc7eafbbe1e6ca47896c14",
+    "html_url": "https://github.com/flatiron-school-student-projects/gitbo/commit/4fc33946fd0b41d470dc7eafbbe1e6ca47896c14",
+    "comments_url": "https://api.github.com/repos/flatiron-school-student-projects/gitbo/commits/4fc33946fd0b41d470dc7eafbbe1e6ca47896c14/comments",
+    "author": {
+      "login": "adamjonas",
+      "id": 755825,
+      "avatar_url": "https://avatars.githubusercontent.com/u/755825",
+      "gravatar_id": "44a509e7710bebe0320ed103e2aa0877",
+      "url": "https://api.github.com/users/adamjonas",
+      "html_url": "https://github.com/adamjonas",
+      "followers_url": "https://api.github.com/users/adamjonas/followers",
+      "following_url": "https://api.github.com/users/adamjonas/following{/other_user}",
+      "gists_url": "https://api.github.com/users/adamjonas/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/adamjonas/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/adamjonas/subscriptions",
+      "organizations_url": "https://api.github.com/users/adamjonas/orgs",
+      "repos_url": "https://api.github.com/users/adamjonas/repos",
+      "events_url": "https://api.github.com/users/adamjonas/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/adamjonas/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "adamjonas",
+      "id": 755825,
+      "avatar_url": "https://avatars.githubusercontent.com/u/755825",
+      "gravatar_id": "44a509e7710bebe0320ed103e2aa0877",
+      "url": "https://api.github.com/users/adamjonas",
+      "html_url": "https://github.com/adamjonas",
+      "followers_url": "https://api.github.com/users/adamjonas/followers",
+      "following_url": "https://api.github.com/users/adamjonas/following{/other_user}",
+      "gists_url": "https://api.github.com/users/adamjonas/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/adamjonas/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/adamjonas/subscriptions",
+      "organizations_url": "https://api.github.com/users/adamjonas/orgs",
+      "repos_url": "https://api.github.com/users/adamjonas/repos",
+      "events_url": "https://api.github.com/users/adamjonas/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/adamjonas/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "5d86460698e37521d65fa429831d96e4aa35aa82",
+        "url": "https://api.github.com/repos/flatiron-school-student-projects/gitbo/commits/5d86460698e37521d65fa429831d96e4aa35aa82",
+        "html_url": "https://github.com/flatiron-school-student-projects/gitbo/commit/5d86460698e37521d65fa429831d96e4aa35aa82"
+      }
+    ]
+  },
+  {
+    "sha": "5d86460698e37521d65fa429831d96e4aa35aa82",
+    "commit": {
+      "author": {
+        "name": "Adam Jonas",
+        "email": "francestown81@gmail.com",
+        "date": "2013-01-14T23:02:24Z"
+      },
+      "committer": {
+        "name": "Adam Jonas",
+        "email": "francestown81@gmail.com",
+        "date": "2013-01-14T23:02:24Z"
+      },
+      "message": "added ie path",
+      "tree": {
+        "sha": "5ffa7b765ab24c09cd5bc5cefcbbfdbc6c84767c",
+        "url": "https://api.github.com/repos/flatiron-school-student-projects/gitbo/git/trees/5ffa7b765ab24c09cd5bc5cefcbbfdbc6c84767c"
+      },
+      "url": "https://api.github.com/repos/flatiron-school-student-projects/gitbo/git/commits/5d86460698e37521d65fa429831d96e4aa35aa82",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/flatiron-school-student-projects/gitbo/commits/5d86460698e37521d65fa429831d96e4aa35aa82",
+    "html_url": "https://github.com/flatiron-school-student-projects/gitbo/commit/5d86460698e37521d65fa429831d96e4aa35aa82",
+    "comments_url": "https://api.github.com/repos/flatiron-school-student-projects/gitbo/commits/5d86460698e37521d65fa429831d96e4aa35aa82/comments",
+    "author": {
+      "login": "adamjonas",
+      "id": 755825,
+      "avatar_url": "https://avatars.githubusercontent.com/u/755825",
+      "gravatar_id": "44a509e7710bebe0320ed103e2aa0877",
+      "url": "https://api.github.com/users/adamjonas",
+      "html_url": "https://github.com/adamjonas",
+      "followers_url": "https://api.github.com/users/adamjonas/followers",
+      "following_url": "https://api.github.com/users/adamjonas/following{/other_user}",
+      "gists_url": "https://api.github.com/users/adamjonas/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/adamjonas/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/adamjonas/subscriptions",
+      "organizations_url": "https://api.github.com/users/adamjonas/orgs",
+      "repos_url": "https://api.github.com/users/adamjonas/repos",
+      "events_url": "https://api.github.com/users/adamjonas/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/adamjonas/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "adamjonas",
+      "id": 755825,
+      "avatar_url": "https://avatars.githubusercontent.com/u/755825",
+      "gravatar_id": "44a509e7710bebe0320ed103e2aa0877",
+      "url": "https://api.github.com/users/adamjonas",
+      "html_url": "https://github.com/adamjonas",
+      "followers_url": "https://api.github.com/users/adamjonas/followers",
+      "following_url": "https://api.github.com/users/adamjonas/following{/other_user}",
+      "gists_url": "https://api.github.com/users/adamjonas/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/adamjonas/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/adamjonas/subscriptions",
+      "organizations_url": "https://api.github.com/users/adamjonas/orgs",
+      "repos_url": "https://api.github.com/users/adamjonas/repos",
+      "events_url": "https://api.github.com/users/adamjonas/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/adamjonas/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "47d81d8f314e33a22e1a99103bd15d09f7c344e8",
+        "url": "https://api.github.com/repos/flatiron-school-student-projects/gitbo/commits/47d81d8f314e33a22e1a99103bd15d09f7c344e8",
+        "html_url": "https://github.com/flatiron-school-student-projects/gitbo/commit/47d81d8f314e33a22e1a99103bd15d09f7c344e8"
+      }
+    ]
+  },
+  {
+    "sha": "47d81d8f314e33a22e1a99103bd15d09f7c344e8",
+    "commit": {
+      "author": {
+        "name": "Adam Jonas",
+        "email": "francestown81@gmail.com",
+        "date": "2013-01-14T23:00:04Z"
+      },
+      "committer": {
+        "name": "Adam Jonas",
+        "email": "francestown81@gmail.com",
+        "date": "2013-01-14T23:00:04Z"
+      },
+      "message": "font-awesome asset path update",
+      "tree": {
+        "sha": "62f7ba80b22a0c0e3ddc8197ab6ad586dc72d745",
+        "url": "https://api.github.com/repos/flatiron-school-student-projects/gitbo/git/trees/62f7ba80b22a0c0e3ddc8197ab6ad586dc72d745"
+      },
+      "url": "https://api.github.com/repos/flatiron-school-student-projects/gitbo/git/commits/47d81d8f314e33a22e1a99103bd15d09f7c344e8",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/flatiron-school-student-projects/gitbo/commits/47d81d8f314e33a22e1a99103bd15d09f7c344e8",
+    "html_url": "https://github.com/flatiron-school-student-projects/gitbo/commit/47d81d8f314e33a22e1a99103bd15d09f7c344e8",
+    "comments_url": "https://api.github.com/repos/flatiron-school-student-projects/gitbo/commits/47d81d8f314e33a22e1a99103bd15d09f7c344e8/comments",
+    "author": {
+      "login": "adamjonas",
+      "id": 755825,
+      "avatar_url": "https://avatars.githubusercontent.com/u/755825",
+      "gravatar_id": "44a509e7710bebe0320ed103e2aa0877",
+      "url": "https://api.github.com/users/adamjonas",
+      "html_url": "https://github.com/adamjonas",
+      "followers_url": "https://api.github.com/users/adamjonas/followers",
+      "following_url": "https://api.github.com/users/adamjonas/following{/other_user}",
+      "gists_url": "https://api.github.com/users/adamjonas/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/adamjonas/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/adamjonas/subscriptions",
+      "organizations_url": "https://api.github.com/users/adamjonas/orgs",
+      "repos_url": "https://api.github.com/users/adamjonas/repos",
+      "events_url": "https://api.github.com/users/adamjonas/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/adamjonas/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "adamjonas",
+      "id": 755825,
+      "avatar_url": "https://avatars.githubusercontent.com/u/755825",
+      "gravatar_id": "44a509e7710bebe0320ed103e2aa0877",
+      "url": "https://api.github.com/users/adamjonas",
+      "html_url": "https://github.com/adamjonas",
+      "followers_url": "https://api.github.com/users/adamjonas/followers",
+      "following_url": "https://api.github.com/users/adamjonas/following{/other_user}",
+      "gists_url": "https://api.github.com/users/adamjonas/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/adamjonas/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/adamjonas/subscriptions",
+      "organizations_url": "https://api.github.com/users/adamjonas/orgs",
+      "repos_url": "https://api.github.com/users/adamjonas/repos",
+      "events_url": "https://api.github.com/users/adamjonas/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/adamjonas/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "5a6736c556f3cad257b806d2f11a933dfefd01c3",
+        "url": "https://api.github.com/repos/flatiron-school-student-projects/gitbo/commits/5a6736c556f3cad257b806d2f11a933dfefd01c3",
+        "html_url": "https://github.com/flatiron-school-student-projects/gitbo/commit/5a6736c556f3cad257b806d2f11a933dfefd01c3"
+      }
+    ]
+  },
+  {
+    "sha": "5a6736c556f3cad257b806d2f11a933dfefd01c3",
+    "commit": {
+      "author": {
+        "name": "Adam Jonas",
+        "email": "francestown81@gmail.com",
+        "date": "2013-01-14T22:45:52Z"
+      },
+      "committer": {
+        "name": "Adam Jonas",
+        "email": "francestown81@gmail.com",
+        "date": "2013-01-14T22:45:52Z"
+      },
+      "message": "precompile error",
+      "tree": {
+        "sha": "0f5bd2dac5a0dbd48da3551bde085b2e363e6141",
+        "url": "https://api.github.com/repos/flatiron-school-student-projects/gitbo/git/trees/0f5bd2dac5a0dbd48da3551bde085b2e363e6141"
+      },
+      "url": "https://api.github.com/repos/flatiron-school-student-projects/gitbo/git/commits/5a6736c556f3cad257b806d2f11a933dfefd01c3",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/flatiron-school-student-projects/gitbo/commits/5a6736c556f3cad257b806d2f11a933dfefd01c3",
+    "html_url": "https://github.com/flatiron-school-student-projects/gitbo/commit/5a6736c556f3cad257b806d2f11a933dfefd01c3",
+    "comments_url": "https://api.github.com/repos/flatiron-school-student-projects/gitbo/commits/5a6736c556f3cad257b806d2f11a933dfefd01c3/comments",
+    "author": {
+      "login": "adamjonas",
+      "id": 755825,
+      "avatar_url": "https://avatars.githubusercontent.com/u/755825",
+      "gravatar_id": "44a509e7710bebe0320ed103e2aa0877",
+      "url": "https://api.github.com/users/adamjonas",
+      "html_url": "https://github.com/adamjonas",
+      "followers_url": "https://api.github.com/users/adamjonas/followers",
+      "following_url": "https://api.github.com/users/adamjonas/following{/other_user}",
+      "gists_url": "https://api.github.com/users/adamjonas/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/adamjonas/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/adamjonas/subscriptions",
+      "organizations_url": "https://api.github.com/users/adamjonas/orgs",
+      "repos_url": "https://api.github.com/users/adamjonas/repos",
+      "events_url": "https://api.github.com/users/adamjonas/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/adamjonas/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "adamjonas",
+      "id": 755825,
+      "avatar_url": "https://avatars.githubusercontent.com/u/755825",
+      "gravatar_id": "44a509e7710bebe0320ed103e2aa0877",
+      "url": "https://api.github.com/users/adamjonas",
+      "html_url": "https://github.com/adamjonas",
+      "followers_url": "https://api.github.com/users/adamjonas/followers",
+      "following_url": "https://api.github.com/users/adamjonas/following{/other_user}",
+      "gists_url": "https://api.github.com/users/adamjonas/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/adamjonas/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/adamjonas/subscriptions",
+      "organizations_url": "https://api.github.com/users/adamjonas/orgs",
+      "repos_url": "https://api.github.com/users/adamjonas/repos",
+      "events_url": "https://api.github.com/users/adamjonas/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/adamjonas/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "261557f969f29d623fe5a363fa652efbf731bc6b",
+        "url": "https://api.github.com/repos/flatiron-school-student-projects/gitbo/commits/261557f969f29d623fe5a363fa652efbf731bc6b",
+        "html_url": "https://github.com/flatiron-school-student-projects/gitbo/commit/261557f969f29d623fe5a363fa652efbf731bc6b"
+      }
+    ]
+  },
+  {
+    "sha": "261557f969f29d623fe5a363fa652efbf731bc6b",
+    "commit": {
+      "author": {
+        "name": "Adam Jonas",
+        "email": "francestown81@gmail.com",
+        "date": "2013-01-14T21:44:27Z"
+      },
+      "committer": {
+        "name": "Adam Jonas",
+        "email": "francestown81@gmail.com",
+        "date": "2013-01-14T21:44:27Z"
+      },
+      "message": "fixed auth issue",
+      "tree": {
+        "sha": "e9629a71ceb513b326887e1302b9e25b484bd0ae",
+        "url": "https://api.github.com/repos/flatiron-school-student-projects/gitbo/git/trees/e9629a71ceb513b326887e1302b9e25b484bd0ae"
+      },
+      "url": "https://api.github.com/repos/flatiron-school-student-projects/gitbo/git/commits/261557f969f29d623fe5a363fa652efbf731bc6b",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/flatiron-school-student-projects/gitbo/commits/261557f969f29d623fe5a363fa652efbf731bc6b",
+    "html_url": "https://github.com/flatiron-school-student-projects/gitbo/commit/261557f969f29d623fe5a363fa652efbf731bc6b",
+    "comments_url": "https://api.github.com/repos/flatiron-school-student-projects/gitbo/commits/261557f969f29d623fe5a363fa652efbf731bc6b/comments",
+    "author": {
+      "login": "adamjonas",
+      "id": 755825,
+      "avatar_url": "https://avatars.githubusercontent.com/u/755825",
+      "gravatar_id": "44a509e7710bebe0320ed103e2aa0877",
+      "url": "https://api.github.com/users/adamjonas",
+      "html_url": "https://github.com/adamjonas",
+      "followers_url": "https://api.github.com/users/adamjonas/followers",
+      "following_url": "https://api.github.com/users/adamjonas/following{/other_user}",
+      "gists_url": "https://api.github.com/users/adamjonas/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/adamjonas/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/adamjonas/subscriptions",
+      "organizations_url": "https://api.github.com/users/adamjonas/orgs",
+      "repos_url": "https://api.github.com/users/adamjonas/repos",
+      "events_url": "https://api.github.com/users/adamjonas/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/adamjonas/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "adamjonas",
+      "id": 755825,
+      "avatar_url": "https://avatars.githubusercontent.com/u/755825",
+      "gravatar_id": "44a509e7710bebe0320ed103e2aa0877",
+      "url": "https://api.github.com/users/adamjonas",
+      "html_url": "https://github.com/adamjonas",
+      "followers_url": "https://api.github.com/users/adamjonas/followers",
+      "following_url": "https://api.github.com/users/adamjonas/following{/other_user}",
+      "gists_url": "https://api.github.com/users/adamjonas/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/adamjonas/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/adamjonas/subscriptions",
+      "organizations_url": "https://api.github.com/users/adamjonas/orgs",
+      "repos_url": "https://api.github.com/users/adamjonas/repos",
+      "events_url": "https://api.github.com/users/adamjonas/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/adamjonas/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "cf6a77e08a0b7e0ba489c677ddf0d287621227d2",
+        "url": "https://api.github.com/repos/flatiron-school-student-projects/gitbo/commits/cf6a77e08a0b7e0ba489c677ddf0d287621227d2",
+        "html_url": "https://github.com/flatiron-school-student-projects/gitbo/commit/cf6a77e08a0b7e0ba489c677ddf0d287621227d2"
+      }
+    ]
+  },
+  {
+    "sha": "cf6a77e08a0b7e0ba489c677ddf0d287621227d2",
+    "commit": {
+      "author": {
+        "name": "Adam Jonas",
+        "email": "francestown81@gmail.com",
+        "date": "2013-01-14T21:23:36Z"
+      },
+      "committer": {
+        "name": "Adam Jonas",
+        "email": "francestown81@gmail.com",
+        "date": "2013-01-14T21:23:36Z"
+      },
+      "message": "scope test again",
+      "tree": {
+        "sha": "cf26f5c5c00585408c44ca51652e573d88d394ff",
+        "url": "https://api.github.com/repos/flatiron-school-student-projects/gitbo/git/trees/cf26f5c5c00585408c44ca51652e573d88d394ff"
+      },
+      "url": "https://api.github.com/repos/flatiron-school-student-projects/gitbo/git/commits/cf6a77e08a0b7e0ba489c677ddf0d287621227d2",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/flatiron-school-student-projects/gitbo/commits/cf6a77e08a0b7e0ba489c677ddf0d287621227d2",
+    "html_url": "https://github.com/flatiron-school-student-projects/gitbo/commit/cf6a77e08a0b7e0ba489c677ddf0d287621227d2",
+    "comments_url": "https://api.github.com/repos/flatiron-school-student-projects/gitbo/commits/cf6a77e08a0b7e0ba489c677ddf0d287621227d2/comments",
+    "author": {
+      "login": "adamjonas",
+      "id": 755825,
+      "avatar_url": "https://avatars.githubusercontent.com/u/755825",
+      "gravatar_id": "44a509e7710bebe0320ed103e2aa0877",
+      "url": "https://api.github.com/users/adamjonas",
+      "html_url": "https://github.com/adamjonas",
+      "followers_url": "https://api.github.com/users/adamjonas/followers",
+      "following_url": "https://api.github.com/users/adamjonas/following{/other_user}",
+      "gists_url": "https://api.github.com/users/adamjonas/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/adamjonas/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/adamjonas/subscriptions",
+      "organizations_url": "https://api.github.com/users/adamjonas/orgs",
+      "repos_url": "https://api.github.com/users/adamjonas/repos",
+      "events_url": "https://api.github.com/users/adamjonas/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/adamjonas/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "adamjonas",
+      "id": 755825,
+      "avatar_url": "https://avatars.githubusercontent.com/u/755825",
+      "gravatar_id": "44a509e7710bebe0320ed103e2aa0877",
+      "url": "https://api.github.com/users/adamjonas",
+      "html_url": "https://github.com/adamjonas",
+      "followers_url": "https://api.github.com/users/adamjonas/followers",
+      "following_url": "https://api.github.com/users/adamjonas/following{/other_user}",
+      "gists_url": "https://api.github.com/users/adamjonas/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/adamjonas/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/adamjonas/subscriptions",
+      "organizations_url": "https://api.github.com/users/adamjonas/orgs",
+      "repos_url": "https://api.github.com/users/adamjonas/repos",
+      "events_url": "https://api.github.com/users/adamjonas/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/adamjonas/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "b7236e9f1d4076ccb790f90e885e8cb147d3e6e8",
+        "url": "https://api.github.com/repos/flatiron-school-student-projects/gitbo/commits/b7236e9f1d4076ccb790f90e885e8cb147d3e6e8",
+        "html_url": "https://github.com/flatiron-school-student-projects/gitbo/commit/b7236e9f1d4076ccb790f90e885e8cb147d3e6e8"
+      }
+    ]
+  },
+  {
+    "sha": "b7236e9f1d4076ccb790f90e885e8cb147d3e6e8",
+    "commit": {
+      "author": {
+        "name": "Adam Jonas",
+        "email": "francestown81@gmail.com",
+        "date": "2013-01-14T21:21:18Z"
+      },
+      "committer": {
+        "name": "Adam Jonas",
+        "email": "francestown81@gmail.com",
+        "date": "2013-01-14T21:21:18Z"
+      },
+      "message": "permissions",
+      "tree": {
+        "sha": "17788faca9028b4a5e70c1a98cce280d3373e563",
+        "url": "https://api.github.com/repos/flatiron-school-student-projects/gitbo/git/trees/17788faca9028b4a5e70c1a98cce280d3373e563"
+      },
+      "url": "https://api.github.com/repos/flatiron-school-student-projects/gitbo/git/commits/b7236e9f1d4076ccb790f90e885e8cb147d3e6e8",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/flatiron-school-student-projects/gitbo/commits/b7236e9f1d4076ccb790f90e885e8cb147d3e6e8",
+    "html_url": "https://github.com/flatiron-school-student-projects/gitbo/commit/b7236e9f1d4076ccb790f90e885e8cb147d3e6e8",
+    "comments_url": "https://api.github.com/repos/flatiron-school-student-projects/gitbo/commits/b7236e9f1d4076ccb790f90e885e8cb147d3e6e8/comments",
+    "author": {
+      "login": "adamjonas",
+      "id": 755825,
+      "avatar_url": "https://avatars.githubusercontent.com/u/755825",
+      "gravatar_id": "44a509e7710bebe0320ed103e2aa0877",
+      "url": "https://api.github.com/users/adamjonas",
+      "html_url": "https://github.com/adamjonas",
+      "followers_url": "https://api.github.com/users/adamjonas/followers",
+      "following_url": "https://api.github.com/users/adamjonas/following{/other_user}",
+      "gists_url": "https://api.github.com/users/adamjonas/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/adamjonas/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/adamjonas/subscriptions",
+      "organizations_url": "https://api.github.com/users/adamjonas/orgs",
+      "repos_url": "https://api.github.com/users/adamjonas/repos",
+      "events_url": "https://api.github.com/users/adamjonas/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/adamjonas/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "adamjonas",
+      "id": 755825,
+      "avatar_url": "https://avatars.githubusercontent.com/u/755825",
+      "gravatar_id": "44a509e7710bebe0320ed103e2aa0877",
+      "url": "https://api.github.com/users/adamjonas",
+      "html_url": "https://github.com/adamjonas",
+      "followers_url": "https://api.github.com/users/adamjonas/followers",
+      "following_url": "https://api.github.com/users/adamjonas/following{/other_user}",
+      "gists_url": "https://api.github.com/users/adamjonas/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/adamjonas/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/adamjonas/subscriptions",
+      "organizations_url": "https://api.github.com/users/adamjonas/orgs",
+      "repos_url": "https://api.github.com/users/adamjonas/repos",
+      "events_url": "https://api.github.com/users/adamjonas/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/adamjonas/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "d0959311fe92cbe9d02e474aad6548600eab5c6c",
+        "url": "https://api.github.com/repos/flatiron-school-student-projects/gitbo/commits/d0959311fe92cbe9d02e474aad6548600eab5c6c",
+        "html_url": "https://github.com/flatiron-school-student-projects/gitbo/commit/d0959311fe92cbe9d02e474aad6548600eab5c6c"
+      }
+    ]
+  },
+  {
+    "sha": "d0959311fe92cbe9d02e474aad6548600eab5c6c",
+    "commit": {
+      "author": {
+        "name": "Adam Jonas",
+        "email": "francestown81@gmail.com",
+        "date": "2013-01-14T21:12:31Z"
+      },
+      "committer": {
+        "name": "Adam Jonas",
+        "email": "francestown81@gmail.com",
+        "date": "2013-01-14T21:12:31Z"
+      },
+      "message": "one more try",
+      "tree": {
+        "sha": "45e17a53a371f67dd7cd7f97224e98bb1212fef7",
+        "url": "https://api.github.com/repos/flatiron-school-student-projects/gitbo/git/trees/45e17a53a371f67dd7cd7f97224e98bb1212fef7"
+      },
+      "url": "https://api.github.com/repos/flatiron-school-student-projects/gitbo/git/commits/d0959311fe92cbe9d02e474aad6548600eab5c6c",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/flatiron-school-student-projects/gitbo/commits/d0959311fe92cbe9d02e474aad6548600eab5c6c",
+    "html_url": "https://github.com/flatiron-school-student-projects/gitbo/commit/d0959311fe92cbe9d02e474aad6548600eab5c6c",
+    "comments_url": "https://api.github.com/repos/flatiron-school-student-projects/gitbo/commits/d0959311fe92cbe9d02e474aad6548600eab5c6c/comments",
+    "author": {
+      "login": "adamjonas",
+      "id": 755825,
+      "avatar_url": "https://avatars.githubusercontent.com/u/755825",
+      "gravatar_id": "44a509e7710bebe0320ed103e2aa0877",
+      "url": "https://api.github.com/users/adamjonas",
+      "html_url": "https://github.com/adamjonas",
+      "followers_url": "https://api.github.com/users/adamjonas/followers",
+      "following_url": "https://api.github.com/users/adamjonas/following{/other_user}",
+      "gists_url": "https://api.github.com/users/adamjonas/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/adamjonas/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/adamjonas/subscriptions",
+      "organizations_url": "https://api.github.com/users/adamjonas/orgs",
+      "repos_url": "https://api.github.com/users/adamjonas/repos",
+      "events_url": "https://api.github.com/users/adamjonas/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/adamjonas/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "adamjonas",
+      "id": 755825,
+      "avatar_url": "https://avatars.githubusercontent.com/u/755825",
+      "gravatar_id": "44a509e7710bebe0320ed103e2aa0877",
+      "url": "https://api.github.com/users/adamjonas",
+      "html_url": "https://github.com/adamjonas",
+      "followers_url": "https://api.github.com/users/adamjonas/followers",
+      "following_url": "https://api.github.com/users/adamjonas/following{/other_user}",
+      "gists_url": "https://api.github.com/users/adamjonas/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/adamjonas/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/adamjonas/subscriptions",
+      "organizations_url": "https://api.github.com/users/adamjonas/orgs",
+      "repos_url": "https://api.github.com/users/adamjonas/repos",
+      "events_url": "https://api.github.com/users/adamjonas/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/adamjonas/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "36ce891b5a8e9553e0a37c81a993c385a37b6c39",
+        "url": "https://api.github.com/repos/flatiron-school-student-projects/gitbo/commits/36ce891b5a8e9553e0a37c81a993c385a37b6c39",
+        "html_url": "https://github.com/flatiron-school-student-projects/gitbo/commit/36ce891b5a8e9553e0a37c81a993c385a37b6c39"
+      }
+    ]
+  },
+  {
+    "sha": "36ce891b5a8e9553e0a37c81a993c385a37b6c39",
+    "commit": {
+      "author": {
+        "name": "Adam Jonas",
+        "email": "francestown81@gmail.com",
+        "date": "2013-01-14T21:07:13Z"
+      },
+      "committer": {
+        "name": "Adam Jonas",
+        "email": "francestown81@gmail.com",
+        "date": "2013-01-14T21:07:13Z"
+      },
+      "message": "trying to raise to better errors in staging",
+      "tree": {
+        "sha": "16e349a91ce69737f886a2f355a29a5fd3f3cd4f",
+        "url": "https://api.github.com/repos/flatiron-school-student-projects/gitbo/git/trees/16e349a91ce69737f886a2f355a29a5fd3f3cd4f"
+      },
+      "url": "https://api.github.com/repos/flatiron-school-student-projects/gitbo/git/commits/36ce891b5a8e9553e0a37c81a993c385a37b6c39",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/flatiron-school-student-projects/gitbo/commits/36ce891b5a8e9553e0a37c81a993c385a37b6c39",
+    "html_url": "https://github.com/flatiron-school-student-projects/gitbo/commit/36ce891b5a8e9553e0a37c81a993c385a37b6c39",
+    "comments_url": "https://api.github.com/repos/flatiron-school-student-projects/gitbo/commits/36ce891b5a8e9553e0a37c81a993c385a37b6c39/comments",
+    "author": {
+      "login": "adamjonas",
+      "id": 755825,
+      "avatar_url": "https://avatars.githubusercontent.com/u/755825",
+      "gravatar_id": "44a509e7710bebe0320ed103e2aa0877",
+      "url": "https://api.github.com/users/adamjonas",
+      "html_url": "https://github.com/adamjonas",
+      "followers_url": "https://api.github.com/users/adamjonas/followers",
+      "following_url": "https://api.github.com/users/adamjonas/following{/other_user}",
+      "gists_url": "https://api.github.com/users/adamjonas/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/adamjonas/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/adamjonas/subscriptions",
+      "organizations_url": "https://api.github.com/users/adamjonas/orgs",
+      "repos_url": "https://api.github.com/users/adamjonas/repos",
+      "events_url": "https://api.github.com/users/adamjonas/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/adamjonas/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "adamjonas",
+      "id": 755825,
+      "avatar_url": "https://avatars.githubusercontent.com/u/755825",
+      "gravatar_id": "44a509e7710bebe0320ed103e2aa0877",
+      "url": "https://api.github.com/users/adamjonas",
+      "html_url": "https://github.com/adamjonas",
+      "followers_url": "https://api.github.com/users/adamjonas/followers",
+      "following_url": "https://api.github.com/users/adamjonas/following{/other_user}",
+      "gists_url": "https://api.github.com/users/adamjonas/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/adamjonas/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/adamjonas/subscriptions",
+      "organizations_url": "https://api.github.com/users/adamjonas/orgs",
+      "repos_url": "https://api.github.com/users/adamjonas/repos",
+      "events_url": "https://api.github.com/users/adamjonas/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/adamjonas/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "1f3f1b9ebfaadaee208c88596aadc0f578347c2c",
+        "url": "https://api.github.com/repos/flatiron-school-student-projects/gitbo/commits/1f3f1b9ebfaadaee208c88596aadc0f578347c2c",
+        "html_url": "https://github.com/flatiron-school-student-projects/gitbo/commit/1f3f1b9ebfaadaee208c88596aadc0f578347c2c"
+      }
+    ]
+  },
+  {
+    "sha": "1f3f1b9ebfaadaee208c88596aadc0f578347c2c",
+    "commit": {
+      "author": {
+        "name": "Adam Jonas",
+        "email": "francestown81@gmail.com",
+        "date": "2013-01-14T21:04:15Z"
+      },
+      "committer": {
+        "name": "Adam Jonas",
+        "email": "francestown81@gmail.com",
+        "date": "2013-01-14T21:04:15Z"
+      },
+      "message": "trying pry and better_errors",
+      "tree": {
+        "sha": "70632181c95d71fc1c0057967f066bbdec80744f",
+        "url": "https://api.github.com/repos/flatiron-school-student-projects/gitbo/git/trees/70632181c95d71fc1c0057967f066bbdec80744f"
+      },
+      "url": "https://api.github.com/repos/flatiron-school-student-projects/gitbo/git/commits/1f3f1b9ebfaadaee208c88596aadc0f578347c2c",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/flatiron-school-student-projects/gitbo/commits/1f3f1b9ebfaadaee208c88596aadc0f578347c2c",
+    "html_url": "https://github.com/flatiron-school-student-projects/gitbo/commit/1f3f1b9ebfaadaee208c88596aadc0f578347c2c",
+    "comments_url": "https://api.github.com/repos/flatiron-school-student-projects/gitbo/commits/1f3f1b9ebfaadaee208c88596aadc0f578347c2c/comments",
+    "author": {
+      "login": "adamjonas",
+      "id": 755825,
+      "avatar_url": "https://avatars.githubusercontent.com/u/755825",
+      "gravatar_id": "44a509e7710bebe0320ed103e2aa0877",
+      "url": "https://api.github.com/users/adamjonas",
+      "html_url": "https://github.com/adamjonas",
+      "followers_url": "https://api.github.com/users/adamjonas/followers",
+      "following_url": "https://api.github.com/users/adamjonas/following{/other_user}",
+      "gists_url": "https://api.github.com/users/adamjonas/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/adamjonas/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/adamjonas/subscriptions",
+      "organizations_url": "https://api.github.com/users/adamjonas/orgs",
+      "repos_url": "https://api.github.com/users/adamjonas/repos",
+      "events_url": "https://api.github.com/users/adamjonas/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/adamjonas/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "adamjonas",
+      "id": 755825,
+      "avatar_url": "https://avatars.githubusercontent.com/u/755825",
+      "gravatar_id": "44a509e7710bebe0320ed103e2aa0877",
+      "url": "https://api.github.com/users/adamjonas",
+      "html_url": "https://github.com/adamjonas",
+      "followers_url": "https://api.github.com/users/adamjonas/followers",
+      "following_url": "https://api.github.com/users/adamjonas/following{/other_user}",
+      "gists_url": "https://api.github.com/users/adamjonas/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/adamjonas/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/adamjonas/subscriptions",
+      "organizations_url": "https://api.github.com/users/adamjonas/orgs",
+      "repos_url": "https://api.github.com/users/adamjonas/repos",
+      "events_url": "https://api.github.com/users/adamjonas/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/adamjonas/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "89d7d855c7829de2ff112867b776ff92ccc7a078",
+        "url": "https://api.github.com/repos/flatiron-school-student-projects/gitbo/commits/89d7d855c7829de2ff112867b776ff92ccc7a078",
+        "html_url": "https://github.com/flatiron-school-student-projects/gitbo/commit/89d7d855c7829de2ff112867b776ff92ccc7a078"
+      }
+    ]
+  },
+  {
+    "sha": "89d7d855c7829de2ff112867b776ff92ccc7a078",
+    "commit": {
+      "author": {
+        "name": "Adam Jonas",
+        "email": "francestown81@gmail.com",
+        "date": "2013-01-12T15:49:06Z"
+      },
+      "committer": {
+        "name": "Adam Jonas",
+        "email": "francestown81@gmail.com",
+        "date": "2013-01-12T15:49:06Z"
+      },
+      "message": "Merge branch 'footer-update'",
+      "tree": {
+        "sha": "42aff6998e33d8cd299fcaa47b11d21249f08b91",
+        "url": "https://api.github.com/repos/flatiron-school-student-projects/gitbo/git/trees/42aff6998e33d8cd299fcaa47b11d21249f08b91"
+      },
+      "url": "https://api.github.com/repos/flatiron-school-student-projects/gitbo/git/commits/89d7d855c7829de2ff112867b776ff92ccc7a078",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/flatiron-school-student-projects/gitbo/commits/89d7d855c7829de2ff112867b776ff92ccc7a078",
+    "html_url": "https://github.com/flatiron-school-student-projects/gitbo/commit/89d7d855c7829de2ff112867b776ff92ccc7a078",
+    "comments_url": "https://api.github.com/repos/flatiron-school-student-projects/gitbo/commits/89d7d855c7829de2ff112867b776ff92ccc7a078/comments",
+    "author": {
+      "login": "adamjonas",
+      "id": 755825,
+      "avatar_url": "https://avatars.githubusercontent.com/u/755825",
+      "gravatar_id": "44a509e7710bebe0320ed103e2aa0877",
+      "url": "https://api.github.com/users/adamjonas",
+      "html_url": "https://github.com/adamjonas",
+      "followers_url": "https://api.github.com/users/adamjonas/followers",
+      "following_url": "https://api.github.com/users/adamjonas/following{/other_user}",
+      "gists_url": "https://api.github.com/users/adamjonas/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/adamjonas/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/adamjonas/subscriptions",
+      "organizations_url": "https://api.github.com/users/adamjonas/orgs",
+      "repos_url": "https://api.github.com/users/adamjonas/repos",
+      "events_url": "https://api.github.com/users/adamjonas/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/adamjonas/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "adamjonas",
+      "id": 755825,
+      "avatar_url": "https://avatars.githubusercontent.com/u/755825",
+      "gravatar_id": "44a509e7710bebe0320ed103e2aa0877",
+      "url": "https://api.github.com/users/adamjonas",
+      "html_url": "https://github.com/adamjonas",
+      "followers_url": "https://api.github.com/users/adamjonas/followers",
+      "following_url": "https://api.github.com/users/adamjonas/following{/other_user}",
+      "gists_url": "https://api.github.com/users/adamjonas/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/adamjonas/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/adamjonas/subscriptions",
+      "organizations_url": "https://api.github.com/users/adamjonas/orgs",
+      "repos_url": "https://api.github.com/users/adamjonas/repos",
+      "events_url": "https://api.github.com/users/adamjonas/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/adamjonas/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "755f22dede1d8a981c79e84b4a376a359d05131c",
+        "url": "https://api.github.com/repos/flatiron-school-student-projects/gitbo/commits/755f22dede1d8a981c79e84b4a376a359d05131c",
+        "html_url": "https://github.com/flatiron-school-student-projects/gitbo/commit/755f22dede1d8a981c79e84b4a376a359d05131c"
+      },
+      {
+        "sha": "a6c82f7e51b4458655730380b19cfa964e728584",
+        "url": "https://api.github.com/repos/flatiron-school-student-projects/gitbo/commits/a6c82f7e51b4458655730380b19cfa964e728584",
+        "html_url": "https://github.com/flatiron-school-student-projects/gitbo/commit/a6c82f7e51b4458655730380b19cfa964e728584"
+      }
+    ]
+  },
+  {
+    "sha": "a6c82f7e51b4458655730380b19cfa964e728584",
+    "commit": {
+      "author": {
+        "name": "Adam Jonas",
+        "email": "francestown81@gmail.com",
+        "date": "2013-01-12T15:48:49Z"
+      },
+      "committer": {
+        "name": "Adam Jonas",
+        "email": "francestown81@gmail.com",
+        "date": "2013-01-12T15:48:49Z"
+      },
+      "message": "not hardcoded anymore",
+      "tree": {
+        "sha": "42aff6998e33d8cd299fcaa47b11d21249f08b91",
+        "url": "https://api.github.com/repos/flatiron-school-student-projects/gitbo/git/trees/42aff6998e33d8cd299fcaa47b11d21249f08b91"
+      },
+      "url": "https://api.github.com/repos/flatiron-school-student-projects/gitbo/git/commits/a6c82f7e51b4458655730380b19cfa964e728584",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/flatiron-school-student-projects/gitbo/commits/a6c82f7e51b4458655730380b19cfa964e728584",
+    "html_url": "https://github.com/flatiron-school-student-projects/gitbo/commit/a6c82f7e51b4458655730380b19cfa964e728584",
+    "comments_url": "https://api.github.com/repos/flatiron-school-student-projects/gitbo/commits/a6c82f7e51b4458655730380b19cfa964e728584/comments",
+    "author": {
+      "login": "adamjonas",
+      "id": 755825,
+      "avatar_url": "https://avatars.githubusercontent.com/u/755825",
+      "gravatar_id": "44a509e7710bebe0320ed103e2aa0877",
+      "url": "https://api.github.com/users/adamjonas",
+      "html_url": "https://github.com/adamjonas",
+      "followers_url": "https://api.github.com/users/adamjonas/followers",
+      "following_url": "https://api.github.com/users/adamjonas/following{/other_user}",
+      "gists_url": "https://api.github.com/users/adamjonas/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/adamjonas/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/adamjonas/subscriptions",
+      "organizations_url": "https://api.github.com/users/adamjonas/orgs",
+      "repos_url": "https://api.github.com/users/adamjonas/repos",
+      "events_url": "https://api.github.com/users/adamjonas/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/adamjonas/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "adamjonas",
+      "id": 755825,
+      "avatar_url": "https://avatars.githubusercontent.com/u/755825",
+      "gravatar_id": "44a509e7710bebe0320ed103e2aa0877",
+      "url": "https://api.github.com/users/adamjonas",
+      "html_url": "https://github.com/adamjonas",
+      "followers_url": "https://api.github.com/users/adamjonas/followers",
+      "following_url": "https://api.github.com/users/adamjonas/following{/other_user}",
+      "gists_url": "https://api.github.com/users/adamjonas/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/adamjonas/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/adamjonas/subscriptions",
+      "organizations_url": "https://api.github.com/users/adamjonas/orgs",
+      "repos_url": "https://api.github.com/users/adamjonas/repos",
+      "events_url": "https://api.github.com/users/adamjonas/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/adamjonas/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "755f22dede1d8a981c79e84b4a376a359d05131c",
+        "url": "https://api.github.com/repos/flatiron-school-student-projects/gitbo/commits/755f22dede1d8a981c79e84b4a376a359d05131c",
+        "html_url": "https://github.com/flatiron-school-student-projects/gitbo/commit/755f22dede1d8a981c79e84b4a376a359d05131c"
+      }
+    ]
+  },
+  {
+    "sha": "755f22dede1d8a981c79e84b4a376a359d05131c",
+    "commit": {
+      "author": {
+        "name": "Josh Rowley",
+        "email": "joshua.f.rowley@gmail.com",
+        "date": "2013-01-10T22:57:14Z"
+      },
+      "committer": {
+        "name": "Josh Rowley",
+        "email": "joshua.f.rowley@gmail.com",
+        "date": "2013-01-10T22:57:14Z"
+      },
+      "message": "add debug for github auth",
+      "tree": {
+        "sha": "5b1e367c5f9c21205b3d8ad52c43db34dca3e104",
+        "url": "https://api.github.com/repos/flatiron-school-student-projects/gitbo/git/trees/5b1e367c5f9c21205b3d8ad52c43db34dca3e104"
+      },
+      "url": "https://api.github.com/repos/flatiron-school-student-projects/gitbo/git/commits/755f22dede1d8a981c79e84b4a376a359d05131c",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/flatiron-school-student-projects/gitbo/commits/755f22dede1d8a981c79e84b4a376a359d05131c",
+    "html_url": "https://github.com/flatiron-school-student-projects/gitbo/commit/755f22dede1d8a981c79e84b4a376a359d05131c",
+    "comments_url": "https://api.github.com/repos/flatiron-school-student-projects/gitbo/commits/755f22dede1d8a981c79e84b4a376a359d05131c/comments",
+    "author": {
+      "login": "joshrowley",
+      "id": 1937303,
+      "avatar_url": "https://avatars.githubusercontent.com/u/1937303",
+      "gravatar_id": "1c8cd82a2c0860b1d9d3a0fa8ce99704",
+      "url": "https://api.github.com/users/joshrowley",
+      "html_url": "https://github.com/joshrowley",
+      "followers_url": "https://api.github.com/users/joshrowley/followers",
+      "following_url": "https://api.github.com/users/joshrowley/following{/other_user}",
+      "gists_url": "https://api.github.com/users/joshrowley/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/joshrowley/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/joshrowley/subscriptions",
+      "organizations_url": "https://api.github.com/users/joshrowley/orgs",
+      "repos_url": "https://api.github.com/users/joshrowley/repos",
+      "events_url": "https://api.github.com/users/joshrowley/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/joshrowley/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "joshrowley",
+      "id": 1937303,
+      "avatar_url": "https://avatars.githubusercontent.com/u/1937303",
+      "gravatar_id": "1c8cd82a2c0860b1d9d3a0fa8ce99704",
+      "url": "https://api.github.com/users/joshrowley",
+      "html_url": "https://github.com/joshrowley",
+      "followers_url": "https://api.github.com/users/joshrowley/followers",
+      "following_url": "https://api.github.com/users/joshrowley/following{/other_user}",
+      "gists_url": "https://api.github.com/users/joshrowley/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/joshrowley/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/joshrowley/subscriptions",
+      "organizations_url": "https://api.github.com/users/joshrowley/orgs",
+      "repos_url": "https://api.github.com/users/joshrowley/repos",
+      "events_url": "https://api.github.com/users/joshrowley/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/joshrowley/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "b59051857896e002d9aee065cd64e801d2ffee80",
+        "url": "https://api.github.com/repos/flatiron-school-student-projects/gitbo/commits/b59051857896e002d9aee065cd64e801d2ffee80",
+        "html_url": "https://github.com/flatiron-school-student-projects/gitbo/commit/b59051857896e002d9aee065cd64e801d2ffee80"
+      }
+    ]
+  },
+  {
+    "sha": "b59051857896e002d9aee065cd64e801d2ffee80",
+    "commit": {
+      "author": {
+        "name": "Josh Rowley",
+        "email": "joshua.f.rowley@gmail.com",
+        "date": "2013-01-08T22:53:33Z"
+      },
+      "committer": {
+        "name": "Josh Rowley",
+        "email": "joshua.f.rowley@gmail.com",
+        "date": "2013-01-08T22:53:33Z"
+      },
+      "message": "add auth failure message",
+      "tree": {
+        "sha": "b5e438abb96e160bc7084900ee07b5eb0ef7d1be",
+        "url": "https://api.github.com/repos/flatiron-school-student-projects/gitbo/git/trees/b5e438abb96e160bc7084900ee07b5eb0ef7d1be"
+      },
+      "url": "https://api.github.com/repos/flatiron-school-student-projects/gitbo/git/commits/b59051857896e002d9aee065cd64e801d2ffee80",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/flatiron-school-student-projects/gitbo/commits/b59051857896e002d9aee065cd64e801d2ffee80",
+    "html_url": "https://github.com/flatiron-school-student-projects/gitbo/commit/b59051857896e002d9aee065cd64e801d2ffee80",
+    "comments_url": "https://api.github.com/repos/flatiron-school-student-projects/gitbo/commits/b59051857896e002d9aee065cd64e801d2ffee80/comments",
+    "author": {
+      "login": "joshrowley",
+      "id": 1937303,
+      "avatar_url": "https://avatars.githubusercontent.com/u/1937303",
+      "gravatar_id": "1c8cd82a2c0860b1d9d3a0fa8ce99704",
+      "url": "https://api.github.com/users/joshrowley",
+      "html_url": "https://github.com/joshrowley",
+      "followers_url": "https://api.github.com/users/joshrowley/followers",
+      "following_url": "https://api.github.com/users/joshrowley/following{/other_user}",
+      "gists_url": "https://api.github.com/users/joshrowley/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/joshrowley/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/joshrowley/subscriptions",
+      "organizations_url": "https://api.github.com/users/joshrowley/orgs",
+      "repos_url": "https://api.github.com/users/joshrowley/repos",
+      "events_url": "https://api.github.com/users/joshrowley/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/joshrowley/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "joshrowley",
+      "id": 1937303,
+      "avatar_url": "https://avatars.githubusercontent.com/u/1937303",
+      "gravatar_id": "1c8cd82a2c0860b1d9d3a0fa8ce99704",
+      "url": "https://api.github.com/users/joshrowley",
+      "html_url": "https://github.com/joshrowley",
+      "followers_url": "https://api.github.com/users/joshrowley/followers",
+      "following_url": "https://api.github.com/users/joshrowley/following{/other_user}",
+      "gists_url": "https://api.github.com/users/joshrowley/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/joshrowley/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/joshrowley/subscriptions",
+      "organizations_url": "https://api.github.com/users/joshrowley/orgs",
+      "repos_url": "https://api.github.com/users/joshrowley/repos",
+      "events_url": "https://api.github.com/users/joshrowley/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/joshrowley/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "8bedf8245143ac383057704ee95f49aedd7093e6",
+        "url": "https://api.github.com/repos/flatiron-school-student-projects/gitbo/commits/8bedf8245143ac383057704ee95f49aedd7093e6",
+        "html_url": "https://github.com/flatiron-school-student-projects/gitbo/commit/8bedf8245143ac383057704ee95f49aedd7093e6"
+      }
+    ]
+  },
+  {
+    "sha": "17e6729e559cbc35f6806053797881163f7f327c",
+    "commit": {
+      "author": {
+        "name": "Adam Jonas",
+        "email": "francestown81@gmail.com",
+        "date": "2013-01-08T19:10:25Z"
+      },
+      "committer": {
+        "name": "Adam Jonas",
+        "email": "francestown81@gmail.com",
+        "date": "2013-01-08T19:10:25Z"
+      },
+      "message": "index action and model update",
+      "tree": {
+        "sha": "ad2cfe3adfc7fade1a5e2fd131ff17a00b23df84",
+        "url": "https://api.github.com/repos/flatiron-school-student-projects/gitbo/git/trees/ad2cfe3adfc7fade1a5e2fd131ff17a00b23df84"
+      },
+      "url": "https://api.github.com/repos/flatiron-school-student-projects/gitbo/git/commits/17e6729e559cbc35f6806053797881163f7f327c",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/flatiron-school-student-projects/gitbo/commits/17e6729e559cbc35f6806053797881163f7f327c",
+    "html_url": "https://github.com/flatiron-school-student-projects/gitbo/commit/17e6729e559cbc35f6806053797881163f7f327c",
+    "comments_url": "https://api.github.com/repos/flatiron-school-student-projects/gitbo/commits/17e6729e559cbc35f6806053797881163f7f327c/comments",
+    "author": {
+      "login": "adamjonas",
+      "id": 755825,
+      "avatar_url": "https://avatars.githubusercontent.com/u/755825",
+      "gravatar_id": "44a509e7710bebe0320ed103e2aa0877",
+      "url": "https://api.github.com/users/adamjonas",
+      "html_url": "https://github.com/adamjonas",
+      "followers_url": "https://api.github.com/users/adamjonas/followers",
+      "following_url": "https://api.github.com/users/adamjonas/following{/other_user}",
+      "gists_url": "https://api.github.com/users/adamjonas/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/adamjonas/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/adamjonas/subscriptions",
+      "organizations_url": "https://api.github.com/users/adamjonas/orgs",
+      "repos_url": "https://api.github.com/users/adamjonas/repos",
+      "events_url": "https://api.github.com/users/adamjonas/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/adamjonas/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "adamjonas",
+      "id": 755825,
+      "avatar_url": "https://avatars.githubusercontent.com/u/755825",
+      "gravatar_id": "44a509e7710bebe0320ed103e2aa0877",
+      "url": "https://api.github.com/users/adamjonas",
+      "html_url": "https://github.com/adamjonas",
+      "followers_url": "https://api.github.com/users/adamjonas/followers",
+      "following_url": "https://api.github.com/users/adamjonas/following{/other_user}",
+      "gists_url": "https://api.github.com/users/adamjonas/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/adamjonas/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/adamjonas/subscriptions",
+      "organizations_url": "https://api.github.com/users/adamjonas/orgs",
+      "repos_url": "https://api.github.com/users/adamjonas/repos",
+      "events_url": "https://api.github.com/users/adamjonas/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/adamjonas/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "6cd7fcbac87f0950b16463584d2a0d2838928cf8",
+        "url": "https://api.github.com/repos/flatiron-school-student-projects/gitbo/commits/6cd7fcbac87f0950b16463584d2a0d2838928cf8",
+        "html_url": "https://github.com/flatiron-school-student-projects/gitbo/commit/6cd7fcbac87f0950b16463584d2a0d2838928cf8"
+      }
+    ]
+  },
+  {
+    "sha": "8bedf8245143ac383057704ee95f49aedd7093e6",
+    "commit": {
+      "author": {
+        "name": "Josh Rowley",
+        "email": "joshua.f.rowley@gmail.com",
+        "date": "2013-01-07T19:36:33Z"
+      },
+      "committer": {
+        "name": "Josh Rowley",
+        "email": "joshua.f.rowley@gmail.com",
+        "date": "2013-01-07T19:36:33Z"
+      },
+      "message": "add production as stage",
+      "tree": {
+        "sha": "f90722de377038fbfce0a38209f89ebace5f81cb",
+        "url": "https://api.github.com/repos/flatiron-school-student-projects/gitbo/git/trees/f90722de377038fbfce0a38209f89ebace5f81cb"
+      },
+      "url": "https://api.github.com/repos/flatiron-school-student-projects/gitbo/git/commits/8bedf8245143ac383057704ee95f49aedd7093e6",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/flatiron-school-student-projects/gitbo/commits/8bedf8245143ac383057704ee95f49aedd7093e6",
+    "html_url": "https://github.com/flatiron-school-student-projects/gitbo/commit/8bedf8245143ac383057704ee95f49aedd7093e6",
+    "comments_url": "https://api.github.com/repos/flatiron-school-student-projects/gitbo/commits/8bedf8245143ac383057704ee95f49aedd7093e6/comments",
+    "author": {
+      "login": "joshrowley",
+      "id": 1937303,
+      "avatar_url": "https://avatars.githubusercontent.com/u/1937303",
+      "gravatar_id": "1c8cd82a2c0860b1d9d3a0fa8ce99704",
+      "url": "https://api.github.com/users/joshrowley",
+      "html_url": "https://github.com/joshrowley",
+      "followers_url": "https://api.github.com/users/joshrowley/followers",
+      "following_url": "https://api.github.com/users/joshrowley/following{/other_user}",
+      "gists_url": "https://api.github.com/users/joshrowley/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/joshrowley/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/joshrowley/subscriptions",
+      "organizations_url": "https://api.github.com/users/joshrowley/orgs",
+      "repos_url": "https://api.github.com/users/joshrowley/repos",
+      "events_url": "https://api.github.com/users/joshrowley/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/joshrowley/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "joshrowley",
+      "id": 1937303,
+      "avatar_url": "https://avatars.githubusercontent.com/u/1937303",
+      "gravatar_id": "1c8cd82a2c0860b1d9d3a0fa8ce99704",
+      "url": "https://api.github.com/users/joshrowley",
+      "html_url": "https://github.com/joshrowley",
+      "followers_url": "https://api.github.com/users/joshrowley/followers",
+      "following_url": "https://api.github.com/users/joshrowley/following{/other_user}",
+      "gists_url": "https://api.github.com/users/joshrowley/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/joshrowley/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/joshrowley/subscriptions",
+      "organizations_url": "https://api.github.com/users/joshrowley/orgs",
+      "repos_url": "https://api.github.com/users/joshrowley/repos",
+      "events_url": "https://api.github.com/users/joshrowley/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/joshrowley/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "2a8d3963610c4afb630759f6251792d896a432b4",
+        "url": "https://api.github.com/repos/flatiron-school-student-projects/gitbo/commits/2a8d3963610c4afb630759f6251792d896a432b4",
+        "html_url": "https://github.com/flatiron-school-student-projects/gitbo/commit/2a8d3963610c4afb630759f6251792d896a432b4"
+      }
+    ]
+  },
+  {
+    "sha": "2a8d3963610c4afb630759f6251792d896a432b4",
+    "commit": {
+      "author": {
+        "name": "Josh Rowley",
+        "email": "joshua.f.rowley@gmail.com",
+        "date": "2013-01-07T19:31:21Z"
+      },
+      "committer": {
+        "name": "Josh Rowley",
+        "email": "joshua.f.rowley@gmail.com",
+        "date": "2013-01-07T19:31:21Z"
+      },
+      "message": "fix missing method for claiming a bounty on the issue show page",
+      "tree": {
+        "sha": "edb69528afbe7a507cc79b0bb32c0862a09ad89c",
+        "url": "https://api.github.com/repos/flatiron-school-student-projects/gitbo/git/trees/edb69528afbe7a507cc79b0bb32c0862a09ad89c"
+      },
+      "url": "https://api.github.com/repos/flatiron-school-student-projects/gitbo/git/commits/2a8d3963610c4afb630759f6251792d896a432b4",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/flatiron-school-student-projects/gitbo/commits/2a8d3963610c4afb630759f6251792d896a432b4",
+    "html_url": "https://github.com/flatiron-school-student-projects/gitbo/commit/2a8d3963610c4afb630759f6251792d896a432b4",
+    "comments_url": "https://api.github.com/repos/flatiron-school-student-projects/gitbo/commits/2a8d3963610c4afb630759f6251792d896a432b4/comments",
+    "author": {
+      "login": "joshrowley",
+      "id": 1937303,
+      "avatar_url": "https://avatars.githubusercontent.com/u/1937303",
+      "gravatar_id": "1c8cd82a2c0860b1d9d3a0fa8ce99704",
+      "url": "https://api.github.com/users/joshrowley",
+      "html_url": "https://github.com/joshrowley",
+      "followers_url": "https://api.github.com/users/joshrowley/followers",
+      "following_url": "https://api.github.com/users/joshrowley/following{/other_user}",
+      "gists_url": "https://api.github.com/users/joshrowley/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/joshrowley/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/joshrowley/subscriptions",
+      "organizations_url": "https://api.github.com/users/joshrowley/orgs",
+      "repos_url": "https://api.github.com/users/joshrowley/repos",
+      "events_url": "https://api.github.com/users/joshrowley/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/joshrowley/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "joshrowley",
+      "id": 1937303,
+      "avatar_url": "https://avatars.githubusercontent.com/u/1937303",
+      "gravatar_id": "1c8cd82a2c0860b1d9d3a0fa8ce99704",
+      "url": "https://api.github.com/users/joshrowley",
+      "html_url": "https://github.com/joshrowley",
+      "followers_url": "https://api.github.com/users/joshrowley/followers",
+      "following_url": "https://api.github.com/users/joshrowley/following{/other_user}",
+      "gists_url": "https://api.github.com/users/joshrowley/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/joshrowley/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/joshrowley/subscriptions",
+      "organizations_url": "https://api.github.com/users/joshrowley/orgs",
+      "repos_url": "https://api.github.com/users/joshrowley/repos",
+      "events_url": "https://api.github.com/users/joshrowley/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/joshrowley/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "8139db7f2f74c3b1678d556eccc143da92de4aa1",
+        "url": "https://api.github.com/repos/flatiron-school-student-projects/gitbo/commits/8139db7f2f74c3b1678d556eccc143da92de4aa1",
+        "html_url": "https://github.com/flatiron-school-student-projects/gitbo/commit/8139db7f2f74c3b1678d556eccc143da92de4aa1"
+      }
+    ]
+  },
+  {
+    "sha": "8139db7f2f74c3b1678d556eccc143da92de4aa1",
+    "commit": {
+      "author": {
+        "name": "Josh Rowley",
+        "email": "joshua.rowley@nyu.edu",
+        "date": "2013-01-05T22:06:11Z"
+      },
+      "committer": {
+        "name": "Josh Rowley",
+        "email": "joshua.rowley@nyu.edu",
+        "date": "2013-01-05T22:06:11Z"
+      },
+      "message": "Merge pull request #12 from flatiron-school/staging-env\n\nSet up staging environment and create staging capistrano deployment",
+      "tree": {
+        "sha": "90871deb7096ccc684f3c3c91ed370b05db816b8",
+        "url": "https://api.github.com/repos/flatiron-school-student-projects/gitbo/git/trees/90871deb7096ccc684f3c3c91ed370b05db816b8"
+      },
+      "url": "https://api.github.com/repos/flatiron-school-student-projects/gitbo/git/commits/8139db7f2f74c3b1678d556eccc143da92de4aa1",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/flatiron-school-student-projects/gitbo/commits/8139db7f2f74c3b1678d556eccc143da92de4aa1",
+    "html_url": "https://github.com/flatiron-school-student-projects/gitbo/commit/8139db7f2f74c3b1678d556eccc143da92de4aa1",
+    "comments_url": "https://api.github.com/repos/flatiron-school-student-projects/gitbo/commits/8139db7f2f74c3b1678d556eccc143da92de4aa1/comments",
+    "author": {
+      "login": "joshrowley",
+      "id": 1937303,
+      "avatar_url": "https://avatars.githubusercontent.com/u/1937303",
+      "gravatar_id": "1c8cd82a2c0860b1d9d3a0fa8ce99704",
+      "url": "https://api.github.com/users/joshrowley",
+      "html_url": "https://github.com/joshrowley",
+      "followers_url": "https://api.github.com/users/joshrowley/followers",
+      "following_url": "https://api.github.com/users/joshrowley/following{/other_user}",
+      "gists_url": "https://api.github.com/users/joshrowley/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/joshrowley/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/joshrowley/subscriptions",
+      "organizations_url": "https://api.github.com/users/joshrowley/orgs",
+      "repos_url": "https://api.github.com/users/joshrowley/repos",
+      "events_url": "https://api.github.com/users/joshrowley/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/joshrowley/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "joshrowley",
+      "id": 1937303,
+      "avatar_url": "https://avatars.githubusercontent.com/u/1937303",
+      "gravatar_id": "1c8cd82a2c0860b1d9d3a0fa8ce99704",
+      "url": "https://api.github.com/users/joshrowley",
+      "html_url": "https://github.com/joshrowley",
+      "followers_url": "https://api.github.com/users/joshrowley/followers",
+      "following_url": "https://api.github.com/users/joshrowley/following{/other_user}",
+      "gists_url": "https://api.github.com/users/joshrowley/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/joshrowley/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/joshrowley/subscriptions",
+      "organizations_url": "https://api.github.com/users/joshrowley/orgs",
+      "repos_url": "https://api.github.com/users/joshrowley/repos",
+      "events_url": "https://api.github.com/users/joshrowley/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/joshrowley/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "6cd7fcbac87f0950b16463584d2a0d2838928cf8",
+        "url": "https://api.github.com/repos/flatiron-school-student-projects/gitbo/commits/6cd7fcbac87f0950b16463584d2a0d2838928cf8",
+        "html_url": "https://github.com/flatiron-school-student-projects/gitbo/commit/6cd7fcbac87f0950b16463584d2a0d2838928cf8"
+      },
+      {
+        "sha": "38fc9da0dfbc8ef5bc32e7061349275c7b97c0b4",
+        "url": "https://api.github.com/repos/flatiron-school-student-projects/gitbo/commits/38fc9da0dfbc8ef5bc32e7061349275c7b97c0b4",
+        "html_url": "https://github.com/flatiron-school-student-projects/gitbo/commit/38fc9da0dfbc8ef5bc32e7061349275c7b97c0b4"
+      }
+    ]
+  },
+  {
+    "sha": "38fc9da0dfbc8ef5bc32e7061349275c7b97c0b4",
+    "commit": {
+      "author": {
+        "name": "Josh Rowley",
+        "email": "joshua.f.rowley@gmail.com",
+        "date": "2013-01-05T22:01:12Z"
+      },
+      "committer": {
+        "name": "Josh Rowley",
+        "email": "joshua.f.rowley@gmail.com",
+        "date": "2013-01-05T22:01:12Z"
+      },
+      "message": "remove compiled assets, which somehow got added",
+      "tree": {
+        "sha": "8b7827740669e3f8f232c7381fb2404c1b90a892",
+        "url": "https://api.github.com/repos/flatiron-school-student-projects/gitbo/git/trees/8b7827740669e3f8f232c7381fb2404c1b90a892"
+      },
+      "url": "https://api.github.com/repos/flatiron-school-student-projects/gitbo/git/commits/38fc9da0dfbc8ef5bc32e7061349275c7b97c0b4",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/flatiron-school-student-projects/gitbo/commits/38fc9da0dfbc8ef5bc32e7061349275c7b97c0b4",
+    "html_url": "https://github.com/flatiron-school-student-projects/gitbo/commit/38fc9da0dfbc8ef5bc32e7061349275c7b97c0b4",
+    "comments_url": "https://api.github.com/repos/flatiron-school-student-projects/gitbo/commits/38fc9da0dfbc8ef5bc32e7061349275c7b97c0b4/comments",
+    "author": {
+      "login": "joshrowley",
+      "id": 1937303,
+      "avatar_url": "https://avatars.githubusercontent.com/u/1937303",
+      "gravatar_id": "1c8cd82a2c0860b1d9d3a0fa8ce99704",
+      "url": "https://api.github.com/users/joshrowley",
+      "html_url": "https://github.com/joshrowley",
+      "followers_url": "https://api.github.com/users/joshrowley/followers",
+      "following_url": "https://api.github.com/users/joshrowley/following{/other_user}",
+      "gists_url": "https://api.github.com/users/joshrowley/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/joshrowley/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/joshrowley/subscriptions",
+      "organizations_url": "https://api.github.com/users/joshrowley/orgs",
+      "repos_url": "https://api.github.com/users/joshrowley/repos",
+      "events_url": "https://api.github.com/users/joshrowley/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/joshrowley/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "joshrowley",
+      "id": 1937303,
+      "avatar_url": "https://avatars.githubusercontent.com/u/1937303",
+      "gravatar_id": "1c8cd82a2c0860b1d9d3a0fa8ce99704",
+      "url": "https://api.github.com/users/joshrowley",
+      "html_url": "https://github.com/joshrowley",
+      "followers_url": "https://api.github.com/users/joshrowley/followers",
+      "following_url": "https://api.github.com/users/joshrowley/following{/other_user}",
+      "gists_url": "https://api.github.com/users/joshrowley/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/joshrowley/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/joshrowley/subscriptions",
+      "organizations_url": "https://api.github.com/users/joshrowley/orgs",
+      "repos_url": "https://api.github.com/users/joshrowley/repos",
+      "events_url": "https://api.github.com/users/joshrowley/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/joshrowley/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "814b0a8bc884f07f2935c3cf69fc3afca03af783",
+        "url": "https://api.github.com/repos/flatiron-school-student-projects/gitbo/commits/814b0a8bc884f07f2935c3cf69fc3afca03af783",
+        "html_url": "https://github.com/flatiron-school-student-projects/gitbo/commit/814b0a8bc884f07f2935c3cf69fc3afca03af783"
+      }
+    ]
+  },
+  {
+    "sha": "814b0a8bc884f07f2935c3cf69fc3afca03af783",
+    "commit": {
+      "author": {
+        "name": "Josh Rowley",
+        "email": "joshua.f.rowley@gmail.com",
+        "date": "2013-01-05T21:48:44Z"
+      },
+      "committer": {
+        "name": "Josh Rowley",
+        "email": "joshua.f.rowley@gmail.com",
+        "date": "2013-01-05T21:48:44Z"
+      },
+      "message": "change default deploy to staging env",
+      "tree": {
+        "sha": "a33e4335669b59ea2a25a015b83cbc3a18de6dfa",
+        "url": "https://api.github.com/repos/flatiron-school-student-projects/gitbo/git/trees/a33e4335669b59ea2a25a015b83cbc3a18de6dfa"
+      },
+      "url": "https://api.github.com/repos/flatiron-school-student-projects/gitbo/git/commits/814b0a8bc884f07f2935c3cf69fc3afca03af783",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/flatiron-school-student-projects/gitbo/commits/814b0a8bc884f07f2935c3cf69fc3afca03af783",
+    "html_url": "https://github.com/flatiron-school-student-projects/gitbo/commit/814b0a8bc884f07f2935c3cf69fc3afca03af783",
+    "comments_url": "https://api.github.com/repos/flatiron-school-student-projects/gitbo/commits/814b0a8bc884f07f2935c3cf69fc3afca03af783/comments",
+    "author": {
+      "login": "joshrowley",
+      "id": 1937303,
+      "avatar_url": "https://avatars.githubusercontent.com/u/1937303",
+      "gravatar_id": "1c8cd82a2c0860b1d9d3a0fa8ce99704",
+      "url": "https://api.github.com/users/joshrowley",
+      "html_url": "https://github.com/joshrowley",
+      "followers_url": "https://api.github.com/users/joshrowley/followers",
+      "following_url": "https://api.github.com/users/joshrowley/following{/other_user}",
+      "gists_url": "https://api.github.com/users/joshrowley/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/joshrowley/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/joshrowley/subscriptions",
+      "organizations_url": "https://api.github.com/users/joshrowley/orgs",
+      "repos_url": "https://api.github.com/users/joshrowley/repos",
+      "events_url": "https://api.github.com/users/joshrowley/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/joshrowley/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "joshrowley",
+      "id": 1937303,
+      "avatar_url": "https://avatars.githubusercontent.com/u/1937303",
+      "gravatar_id": "1c8cd82a2c0860b1d9d3a0fa8ce99704",
+      "url": "https://api.github.com/users/joshrowley",
+      "html_url": "https://github.com/joshrowley",
+      "followers_url": "https://api.github.com/users/joshrowley/followers",
+      "following_url": "https://api.github.com/users/joshrowley/following{/other_user}",
+      "gists_url": "https://api.github.com/users/joshrowley/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/joshrowley/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/joshrowley/subscriptions",
+      "organizations_url": "https://api.github.com/users/joshrowley/orgs",
+      "repos_url": "https://api.github.com/users/joshrowley/repos",
+      "events_url": "https://api.github.com/users/joshrowley/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/joshrowley/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "8d3312fd3269dd9e9a8833888b0585482d7f9b32",
+        "url": "https://api.github.com/repos/flatiron-school-student-projects/gitbo/commits/8d3312fd3269dd9e9a8833888b0585482d7f9b32",
+        "html_url": "https://github.com/flatiron-school-student-projects/gitbo/commit/8d3312fd3269dd9e9a8833888b0585482d7f9b32"
+      }
+    ]
+  }
+]
